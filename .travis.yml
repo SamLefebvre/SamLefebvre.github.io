@@ -6,9 +6,10 @@ cache:
   directories:
     - "node_modules"
 
+# whitelist, https://docs.travis-ci.com/user/customizing-the-build/#Safelisting-or-blocklisting-branches
 branches:
   only:
-  - master
+  - production
 
 install:
   - npm install
@@ -24,4 +25,4 @@ deploy:
   target-branch: master
   local-dir: docs/.vuepress/dist
   on:
-    branch: production
+    branch: master

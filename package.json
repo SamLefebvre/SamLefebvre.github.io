@@ -1,8 +1,16 @@
 {
+    "name": "website-sam",
+    "version": "1.0.0",
+    "description": "This is my website built with VuePress",
+    "repository": "https://github.com/SamLefebvre/SamLefebvre.github.io.git",
+    "author": "Sam",
+    "license": "MIT",
+
     "scripts": {
+        "docs:dev": "vuepress dev docs",
         "docs:build": "vuepress build docs"
     },
     "devDependencies": {
-        "vuepress": "^0.8.4"
+        "vuepress": "^1.0.0-alpha.47"
     }
 }

@@ -1,15 +1,20 @@
-# Hello World
+---
+title: Samuël Lefebvre
+---
 
-## second level
+# Samuël Lefebvre
 
-## second level
+<table style="border:none">
+  <tr style="border:none">
+    <td style="border:none"><InfoCard title="CV" logo="far fa-file-pdf fa-7x"/></td>
+    <td style="border:none"><InfoCard title="GitHub" logo="fab fa-github fa-7x"/></td>
+  </tr>
+  <tr style="border:none">
+    <td style="border:none"><InfoCard title="Portfolio" logo="far fa-file-code fa-7x"/></td>
+    <td style="border:none"><InfoCard title="Intérêts" logo="fas fa-fire-alt fa-7x"/></td>
+  </tr>
+</table>
 
-### level 3
 
-Test
 
 [![Build Status](https://travis-ci.com/SamLefebvre/SamLefebvre.github.io.svg?branch=production)](https://travis-ci.com/SamLefebvre/SamLefebvre.github.io)
-
-Un autre test
-
-aa

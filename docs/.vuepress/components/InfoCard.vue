@@ -3,13 +3,13 @@
     class="info-card"
     :style="backgroundImageGenerated"
   >
-  <div class="info-card-content">
-    <div class="info-card-logo-background">
-      <div class="info-card-logo shadow"><i :class="logo"></i></div>
+    <div class="info-card-content">
+      <div class="info-card-logo-background">
+        <div class="info-card-logo shadow"><i :class="logo"></i></div>
+      </div>
+      <div class="info-card-title">{{ title }}</div>
     </div>
-    <div class="info-card-title">{{ title }}</div>
   </div>
-</div>
 </template>
 
 <script>
@@ -31,27 +31,20 @@ export default {
       var pattern = GeoPattern.generate(Math.random().toString());
       //var pattern = GeoPattern.generate('GitHub');
       return {'background-image' : pattern.toDataUrl()}
-    },
-
-    colorGenerated () {
-      //var pattern = GeoPattern.generate(Math.random().toString());
-      return {'color' :GeoPattern.generate('GitHub').color};
-    },
-
+    }
   }
 }
 </script>
 
 <style scoped>
+
 .active {
   background: green;
 }
 
-
 .info-card {
   height: 300px;
   width: 300px;
-  /* border: solid black 1px; */
   text-align: center;
   background-color:darkgrey;
   display:table;
@@ -83,11 +76,6 @@ export default {
   stroke-width: 5px;
 }
 
-/* .info-card-logo-background:hover,
-.info-card-logo:hover{
-  color:rgb(188, 255, 244);
-} */
-
 div.info-card:hover {
   color:#FFC107;
 }
@@ -96,7 +84,6 @@ div.info-card:hover {
   stroke: black;
   stroke-width: 2px;
 }
-
 
 .shadow {
   -webkit-filter: drop-shadow( 10px 10px 5px rgba(0, 0, 0, .9));

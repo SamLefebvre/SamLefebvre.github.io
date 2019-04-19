@@ -1,9 +1,10 @@
+[![Build Status](https://travis-ci.com/SamLefebvre/SamLefebvre.github.io.svg?branch=production)](https://travis-ci.com/SamLefebvre/SamLefebvre.github.io)
 # Welcome !
 
 This GitHub project is behind my personal website: https://samlefebvre.github.io
 
 
-Please, take a look !
+Take a look !
 
 
 ## Development
@@ -17,5 +18,5 @@ This project is build on [VuePress](https://v1.vuepress.vuejs.org/) which is a V
 - `yarn docs:dev`
 
 ## Deployment
-
+- Automatic deployment via travis-cli
 

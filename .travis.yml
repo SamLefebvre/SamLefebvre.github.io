@@ -10,6 +10,8 @@ install:
   - npm install
   - npm run docs:build
 
+script: 'true' # Skipping tests, https://docs.travis-ci.com/user/languages/javascript-with-nodejs/#default-build-script
+
 deploy:
   provider: pages
   skip-cleanup: true

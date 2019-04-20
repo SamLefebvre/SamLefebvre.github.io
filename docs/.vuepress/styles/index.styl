@@ -1,8 +1,13 @@
-.cardIntro, tr, td
-{
-  border:none;
-}
+body
+  overflow-y:scroll
 
-body {
-  overflow-y:scroll;
-}
+.flex-container
+  display: flex
+  flex-wrap: wrap
+
+  & > div
+    margin: 10px
+
+@media (max-width: $MQMobile)
+  .cornerGitHub
+    display none

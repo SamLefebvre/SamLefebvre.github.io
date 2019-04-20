@@ -5,7 +5,7 @@
   >
     <div class="info-card-content">
       <div class="info-card-logo-background">
-        <div class="info-card-logo shadow"><i :class="logo"></i></div>
+        <div class="info-card-logo shadow"><i :class="[logo, 'logoFA']"></i></div>
       </div>
       <div class="info-card-title">{{ title }}</div>
     </div>
@@ -20,7 +20,7 @@ export default {
   props: ['title','logo'],
   data() {
     return {
-      tata:"ABC"
+      test:"ABC"
     }
   },
   mounted: function () {
@@ -29,7 +29,7 @@ export default {
   computed: {
     backgroundImageGenerated () {
       var pattern = GeoPattern.generate(Math.random().toString());
-      //var pattern = GeoPattern.generate('GitHub');
+      //var pattern = GeoPattern.generate(this.title);
       return {'background-image' : pattern.toDataUrl()}
     }
   }
@@ -38,18 +38,20 @@ export default {
 
 <style scoped>
 
-.active {
-  background: green;
-}
-
 .info-card {
-  height: 300px;
-  width: 300px;
+  height: 18.75rem;
+  width: 18.75rem;
+
   text-align: center;
   background-color:darkgrey;
   display:table;
   color:white;
 }
+
+div.info-card:hover {
+  color:#FFC107;
+}
+
 .info-card-content {
   height:100%;
   display: table-cell;
@@ -76,8 +78,8 @@ export default {
   stroke-width: 5px;
 }
 
-div.info-card:hover {
-  color:#FFC107;
+.logoFA {
+  font-size: 7rem;
 }
 
 .svg-inline--fa{ /* outline logo */

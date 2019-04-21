@@ -84,9 +84,9 @@ module.exports = {
     },
     '@vuepress/last-updated': {
       transformer: (timestamp, lang) => {
-        const moment = require('moment')
+        const moment = require('moment-timezone')
         moment.locale(lang)
-        return moment(timestamp).local().format('LLL')
+        return moment(timestamp).tz("America/Montreal").format('LLL')
       }
     }
   },

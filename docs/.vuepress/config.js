@@ -47,7 +47,7 @@ module.exports = {
         sidebar: {
           '/en/article/': [
             '',
-            'markdownDemo'
+            'secure-access-with-ssh-keys'
           ],
           // Default
           '/en/': [
@@ -81,6 +81,11 @@ module.exports = {
           buttonText: "Refresh"
         }
       }
+    }
+  },
+  markdown: {
+    extendMarkdown(md) {
+      md.set({ breaks: true }) // break on newline
     }
   },
   chainWebpack (config, isServer) {

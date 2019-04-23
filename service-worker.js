@@ -21,19 +21,19 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "56c362fa27b15f9b3d2e7ea0cdf9ad98"
+    "revision": "234edc17e7bf1428cd4e9c16e0257684"
   },
   {
     "url": "article/index.html",
-    "revision": "0c6b2dacc29bf0b094200a8123c9406e"
+    "revision": "e523e8463381fd5b6e152f7a1b522ca8"
   },
   {
     "url": "article/markdownDemo.html",
-    "revision": "ca6e5c832c0101c7f895a1f2838f6cea"
+    "revision": "dcc1c0a1a8bd2661c957f946724068d6"
   },
   {
-    "url": "assets/css/0.styles.588dbf14.css",
-    "revision": "961856c27a9342325f13ed0ec8b4bb04"
+    "url": "assets/css/0.styles.1b0f7d3c.css",
+    "revision": "fb45c28d361130e6aad4147fed67b23b"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -120,36 +120,44 @@ self.__precacheManifest = [
     "revision": "136441b201b32181421781c5f78c7ced"
   },
   {
-    "url": "assets/js/app.ede0306e.js",
-    "revision": "75f64e6846372162305e48032dded91a"
+    "url": "assets/js/app.5a462e64.js",
+    "revision": "a0f106fc938dde9f965baacdd173f594"
   },
   {
     "url": "en/article/index.html",
-    "revision": "d8ac4d8ff82360ac8b6efa99e3c3cb89"
+    "revision": "a4f4d6eacb073f58bb1b233410725b84"
   },
   {
     "url": "en/article/secure-access-with-ssh-keys.html",
-    "revision": "43dbeb3254b24b47825c611ac61455a4"
+    "revision": "8ce8b1d21ea718ec8b21aee99caf7f2c"
   },
   {
     "url": "en/index.html",
-    "revision": "15314954669ba9564b0521e3760bf9a4"
+    "revision": "01413710a00a97fb7fa12a0342815de7"
   },
   {
     "url": "en/interest.html",
-    "revision": "1f0f6377d5a4183ae6846608d43a686b"
+    "revision": "ee5479fec221077fa72e26a2985cb265"
   },
   {
     "url": "en/portfolio.html",
-    "revision": "c8fd76161569b4a48aa3a2531fd67988"
+    "revision": "117016f3a03c4f7b95de9c622110bf8f"
+  },
+  {
+    "url": "img/language.png",
+    "revision": "b6c11fdca1fbabf4a2cfb1e40df5307b"
+  },
+  {
+    "url": "img/language.svg",
+    "revision": "c7d26e0c360381a13babe881aff89c63"
   },
   {
     "url": "index.html",
-    "revision": "1cd28042e08c6bf93ef4c8635c34c6cc"
+    "revision": "76038cb35c7b2013c4d7be4d61c0c86b"
   },
   {
     "url": "interest.html",
-    "revision": "e527f4a5aebaecdb62c96cceee803173"
+    "revision": "053afdaa2bffa94dd8a8abcec2f11f47"
   },
   {
     "url": "logo.png",
@@ -157,11 +165,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page2.html",
-    "revision": "a8a6bef2ab2cb25a8d9963fe72a34bd4"
+    "revision": "fd8ce56e22cdf5a99324773ef9b12204"
   },
   {
     "url": "portfolio.html",
-    "revision": "38af7891f700891c62e9828aafeaa6a9"
+    "revision": "ef322e20befa6553a68f26cbb07a49c6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

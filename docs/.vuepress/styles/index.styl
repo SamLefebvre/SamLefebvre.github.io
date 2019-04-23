@@ -11,3 +11,12 @@ body
 @media (max-width: $MQMobile)
   .cornerGitHub
     display none
+
+.dropdown-title
+  width 6rem // same width for english and french
+  .title::before
+    //https://commons.wikimedia.org/wiki/OOUI_icons
+    content:url(/img/language.svg);
+    padding-right: 5px;
+    position: relative;
+    top: 3px;

@@ -1,10 +1,13 @@
 <template>
   <div
     class="info-card"
-    :style="backgroundImageGenerated"
+    :style="isVisible && backgroundImageGenerated"
+    v-show="isVisible"
   >
     <div class="info-card-content">
-      <div class="info-card-logo-background">
+      <div class="info-card-logo-background"
+           v-show="isVisible"
+      >
         <div class="info-card-logo shadow"><i :class="[logo, 'logoFA']"></i></div>
       </div>
       <div class="info-card-title">{{ title }}</div>
@@ -20,11 +23,13 @@ export default {
   props: ['title','logo'],
   data() {
     return {
-      test:"ABC"
+      test:"ABC",
+      isVisible:false
     }
   },
   mounted: function () {
     //console.log('The props are also available in JS:', this);
+    this.isVisible=true
   },
   computed: {
     backgroundImageGenerated () {

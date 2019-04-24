@@ -17,6 +17,9 @@ This project is build on [VuePress](https://v1.vuepress.vuejs.org/) which is a V
 - `yarn install`
 - `yarn docs:dev`
 
+Build the website
+- `yarn docs:build`
+
 ## Deployment
 - Automatic deployment via travis-cli
 

@@ -23,3 +23,6 @@ Build the website
 ## Deployment
 - Automatic deployment via travis-cli
 
+## Update
+- Update yarn `choco upgrade yarn`
+- Upgrade packages `yarn upgrade`

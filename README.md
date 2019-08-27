@@ -11,6 +11,12 @@ Take a look !
 
 This project is build on [VuePress](https://v1.vuepress.vuejs.org/) which is a Vue-powered Static Site Generator.
 
+### Environment setup
+- Install NodeJS
+    - `choco install nodejs`
+- Install Yarn
+    - `choco install yarn`
+
 ### Steps
 
 - Clone this repository

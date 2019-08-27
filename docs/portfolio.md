@@ -1,6 +1,56 @@
 # Portfolio
 
+## Unity
+
+### Rouler en mode rétro
+Unity 2019.1.13f1 - août 2019
+
+Une bille qui roule, comment rendre le concept plus intéressant ? 
+
+<div class="glow">Synthwave !</div>
+
+- Utilisation de perspectives simulant un avancement sans fin
+- La bille intéragie avec le sol et essaie de trouver le meilleure chemin pour avancer
+- Arches donnant une sensations d'avancement
+- [Version en ligne](https://lefebvre.dev/demo_unity_80s_WebGL/index.html) (le sol est différent dû à une incompatibilitée avec le shader en WebGL)
+- Code disponible sur [GitHub](https://github.com/SamLefebvre/retro-80s-wireframe)
+
+![synthwave](./img/synthwave.jpg)
+
+### Interface musicale 
+Unity 2019.1.1f1 - août 2019
+
+Dans le cadre de mon cours *GTI745 - Interfaces utilisateurs avancées* à l'ÉTS, le dernier laboratoire a été de faire un jeu permettant de créer de la musique. Un magnifique travail d'équipe en seulement quelques semaines.
+
+**Interface principale** : Séquenceur musical avec une console permettant d'ajuster le son.
+![gti745_unity_sound_matrix](./img/gti745/gti745_unity_sound_matrix.jpg)
+
+- Utilisation de [Leap Motion](https://www.leapmotion.com/), permettant de contrôler les éléments de la matrices en temps réel avec nos mains pour un contrôle plus immersif.
+
+**Un (petit) monde à explorer** : Le joueur doit se promener dans un monde 3d pour ramasser différents éléments musicaux.
+![gti745_unity_open_world](./img/gti745/gti745_unity_open_world.jpg)
+
+- Package [Terrain Tools](https://docs.unity3d.com/Packages/com.unity.terrain-tools@latest)
+- [Terrain Tools Sample Asset Pack](https://assetstore.unity.com/packages/2d/textures-materials/terrain-tools-sample-asset-pack-145808)
+
+**Dispositif haptique (vibration)** : Permets de donner une petite sensation à l'utilisateur lorsqu'il "touche" à un objet, plus précisément lorsque la *Leap Motion* rentre en contact avec un élément de la matrice.
+![gti745_schema_circuitPlaygroundExpress](./img/gti745/gti745_schema_circuitPlaygroundExpress.jpg)
+- Moteur vibrotactile contrôlé avec python sur système embarqué
+  - Vibrating Mini Motor Disc  https://www.adafruit.com/product/1201
+  - Adafruit DRV2605L Haptic Motor Controller https://www.adafruit.com/product/2305
+  - Circuit Playground Express https://www.adafruit.com/product/3333
+
+**Diagramme du circuit électrique**
+![gti745_fritzing_diagram](./img/gti745/gti745_fritzing_diagram.png)
+- Dessiné à l'aide de [Fritzing](https://fritzing.org/home/)
+
+
+
 
 ## Site Internet
 
-<i class="far fa-file-alt fa-4x"></i>
+### [SynapsÉTS](https://synapsets.etsmtl.ca)
+
+SynapsÉTS est un nouveau club étudiant à vocation scientifique de l'École de technologie supérieure et spécialisé en Interface Cerveau-Machine (ICM / BCI). Rassemblant tous les domaines d'expertise de l'université, ce groupe d'étudiants concentre ses activités autour de l'analyse et du traitement de signaux cérébraux ainsi que dans le développement de technologies dans ce domaine.
+
+[![SynapsÉTS Website](./img/web_synapsets_small.jpg)](https://synapsets.etsmtl.ca)

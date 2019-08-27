@@ -24,6 +24,7 @@ module.exports = {
           { text: 'Accueil', link: '/' },
           { text: 'Article', link: '/article/'}
         ],
+        sidebarDepth: 3,
         sidebar: {
           '/article/': [
             '',
@@ -59,7 +60,7 @@ module.exports = {
       }
     },
 
-    updatePopup: true, // Boolean | Object, default to undefined.
+    updatePopup: false, // Boolean | Object, default to undefined.
     lastUpdated: '⏳️', // string | boolean
 
     docsRepo: 'SamLefebvre/SamLefebvre.github.io',

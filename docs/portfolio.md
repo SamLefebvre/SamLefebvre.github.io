@@ -2,6 +2,24 @@
 
 ## Unity
 
+### Labyrinthe inversé
+
+> `Unity 2019.1.14f1` `Bosca Ceoil` `AI` `NavMesh` - Août 2019
+
+Mouvement avec le [NavMesh](https://docs.unity3d.com/Manual/nav-BuildingNavMesh.html) d'Unity et création d'une ambiance sonore avec [Bosca Ceoil](https://boscaceoil.net/).
+
+::: warning En développement
+Une mise à jour avec le lien sur le Google Play Store est à venir.
+:::
+
+![aiMaze](./img/aiMaze/image_aiMaze.jpg)
+
+**Vidéo avec la bande sonore**
+<video width="100%" height="100%" controls>
+  <source src="./img/aiMaze/video_aiMaze.webm" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ### Rouler en mode rétro
 Unity 2019.1.13f1 - août 2019
 

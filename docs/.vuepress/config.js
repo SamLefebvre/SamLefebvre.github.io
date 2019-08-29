@@ -45,6 +45,7 @@ module.exports = {
           { text: 'Home', link: '/en/' },
           { text: 'Article', link: '/en/article/'}
         ],
+        sidebarDepth: 3,
         sidebar: {
           '/en/article/': [
             '',

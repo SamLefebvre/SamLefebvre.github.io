@@ -2,6 +2,21 @@
 
 ## Unity
 
+### Une fin de semaine au chalet
+> `Unity 2019.1.14f1`
+
+>*À quoi ressemblerait une fin de semaine idéale ?*
+Être tranquille au chalet, un petit feu de camp, écouter la nature et s'assoupir lors d'un coucher de soleil.
+
+Complêtement réalisé avec des assets gratuit, son d'ambiance enregistré moi-même et nettoyé avec Audacity.
+
+![chalet](./img/cabin/old_Cabin_woods.jpg)
+
+**Vidéo**
+<div style="position:relative;padding-top:56.25%;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/1sNtYfWZV08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Labyrinthe inversé
 
 > `Unity 2019.1.14f1` `Bosca Ceoil` `AI` `NavMesh` - Août 2019

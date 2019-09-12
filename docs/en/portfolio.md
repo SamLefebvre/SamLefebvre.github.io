@@ -74,9 +74,9 @@ As part of my course *GTI745 - Interfaces utilisateurs avancées* at ÉTS, the l
 **Haptic device (vibration)**: Allows a small sensation to the user when "touching" an object, specifically when the *Leap Motion* comes into contact with an element of the matrix.
 ![gti745_schema_circuitPlaygroundExpress](./../img/gti745/gti745_schema_circuitPlaygroundExpress.jpg)
 - Controlled vibrotactile motor with python on embedded system
-  - Vibrating Mini Motor Disc  https://www.adafruit.com/product/1201
-  - Adafruit DRV2605L Haptic Motor Controller https://www.adafruit.com/product/2305
-  - Circuit Playground Express https://www.adafruit.com/product/3333
+  - [Vibrating Mini Motor Disc](https://www.adafruit.com/product/1201)
+  - [Adafruit DRV2605L Haptic Motor Controller](https://www.adafruit.com/product/2305)
+  - [Circuit Playground Express](https://www.adafruit.com/product/3333)
 
 **Diagram of the electrical circuit**
 ![gti745_fritzing_diagram](./../img/gti745/gti745_fritzing_diagram.png)

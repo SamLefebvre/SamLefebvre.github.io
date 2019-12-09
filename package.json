@@ -10,12 +10,12 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-pwa": "^1.0.3",
-    "vuepress": "^1.0.3"
+    "@vuepress/plugin-pwa": "^1.2.0",
+    "vuepress": "^1.2.0"
   },
   "dependencies": {
     "geopattern": "^1.2.3",
     "moment": "^2.24.0",
-    "moment-timezone": "^0.5.26"
+    "moment-timezone": "^0.5.27"
   }
 }

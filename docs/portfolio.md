@@ -3,18 +3,18 @@
 ## Unity
 
 ### Une fin de semaine au chalet
-> `Unity 2019.1.14f1`
+> `Unity 2019.1.14f1` `Animation`  - Août 2019
 
 >*À quoi ressemblerait une fin de semaine idéale ?*
 Être tranquille au chalet, un petit feu de camp, écouter la nature et s'assoupir lors d'un coucher de soleil.
 
-Complêtement réalisé avec des assets gratuit, son d'ambiance enregistré moi-même et nettoyé avec Audacity.
+Complètement réalisé avec des assets gratuit, son d'ambiance enregistré moi-même et nettoyé avec Audacity.
 
 ![chalet](./img/cabin/old_Cabin_woods.jpg)
 
 **Vidéo**
 <div style="position:relative;padding-top:56.25%;">
-    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/1sNtYfWZV08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/1sNtYfWZV08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Labyrinthe inversé
@@ -38,19 +38,19 @@ Une mise à jour avec le lien sur le Google Play Store est à venir.
 ### Rouler en mode rétro
 Unity 2019.1.13f1 - août 2019
 
-Une bille qui roule, comment rendre le concept plus intéressant ? 
+Une bille qui roule, comment rendre le concept plus intéressant ?
 
 <div class="glow">Synthwave !</div>
 
 - Utilisation de perspectives simulant un avancement sans fin
-- La bille intéragie avec le sol et essaie de trouver le meilleure chemin pour avancer
-- Arches donnant une sensations d'avancement
-- [Version en ligne](https://lefebvre.dev/demo_unity_80s_WebGL/index.html) (le sol est différent dû à une incompatibilitée avec le shader en WebGL)
+- La bille interagit avec le sol et essaie de trouver le meilleur chemin pour avancer
+- Arches donnant une sensation d'avancement
+- [Version en ligne](https://lefebvre.dev/demo_unity_80s_WebGL/index.html) (le sol est différent dû à une incompatibilité avec le shader en WebGL)
 - Code disponible sur [GitHub](https://github.com/SamLefebvre/retro-80s-wireframe)
 
 ![synthwave](./img/synthwave.jpg)
 
-### Interface musicale 
+### Interface musicale
 Unity 2019.1.1f1 - août 2019
 
 Dans le cadre de mon cours *GTI745 - Interfaces utilisateurs avancées* à l'ÉTS, le dernier laboratoire a été de faire un jeu permettant de créer de la musique. Un magnifique travail d'équipe en seulement quelques semaines.
@@ -60,10 +60,10 @@ Dans le cadre de mon cours *GTI745 - Interfaces utilisateurs avancées* à l'ÉT
 
 **Démo sur Youtube**
 <div style="position:relative;padding-top:56.25%;">
-    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/UJGDZKN5E0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/UJGDZKN5E0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-- Utilisation de [Leap Motion](https://www.leapmotion.com/), permettant de contrôler les éléments de la matrices en temps réel avec nos mains pour un contrôle plus immersif.
+- Utilisation de [Leap Motion](https://www.leapmotion.com/), permettant de contrôler les éléments de la matrice en temps réel avec nos mains pour un contrôle plus immersif.
 
 **Un (petit) monde à explorer** : Le joueur doit se promener dans un monde 3d pour ramasser différents éléments musicaux.
 ![gti745_unity_open_world](./img/gti745/gti745_unity_open_world.jpg)
@@ -81,9 +81,6 @@ Dans le cadre de mon cours *GTI745 - Interfaces utilisateurs avancées* à l'ÉT
 **Diagramme du circuit électrique**
 ![gti745_fritzing_diagram](./img/gti745/gti745_fritzing_diagram.png)
 - Dessiné à l'aide de [Fritzing](https://fritzing.org/home/)
-
-
-
 
 ## Site Internet
 

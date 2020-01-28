@@ -2,6 +2,65 @@
 
 ## Unity
 
+### Jouer avec son coeur
+> `Unity 2019.2.17f1` `IHM` - Janvier 2020
+
+Lors de la journée [portes ouvertes de l'ÉTS](https://portesouvertes.etsmtl.ca/), voici un des projets présenté par le club SynapsÉTS.
+
+Comment rendre la biotechnologie, l'analyses des données, la visualisation des données, le fun et accessible à tous ? Dans un jeu bien entendu ! :space_invader:
+
+Le battement du coeur est détecté avec un petit appareil. À chaque battement, le fusil gagne une recharge supplémentaire. Donc, plus le coeur bat vite, plus facilement la personne peut survivre aux ennemis. :heart:
+
+::: tip Fonctionnement
+
+Avec un <abbr title="Un photopléthysmogramme">capteur de pulsation</abbr> placé sur le doigt, une lumière et un capteur détecte les modifications du flux sanguin en continu. Ce faisant, lors d'un battement, une modification du voltage est perçu par le capteur, un battement est alors détecté.
+
+<details>
+  <summary>Image montrant plus en détail le fonctionnement</summary>
+<a href="https://learn.adafruit.com/assets/69599"><img :src="$withBase('/img/synapsETS/light_pulse_detect.png')" alt="foo">Anne Barela </a>
+</details>
+:::
+
+![car](./img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_red_cube.png)
+![car](./img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_ennemies.png)
+![car](./img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_explosion.png)
+![car](./img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_demo.jpg)
+
+### Course en lowPoly
+
+> `Unity 2019.2.17f1` `Cinemachine` `Wheel Collider` `Post Processing` - Janvier 2020
+
+En préparation pour le [Global Game Jam](https://globalgamejam.org/) notre équipe s'est rassemblée quelques heures pour s'amuser avec les assets de la compagnie [Synty Studios](https://syntystore.com/) pour en apprendre l'intégration avec Unity.
+
+Le déplacement de la voiture s'est fait avec le système de physique [Wheel Collider](https://docs.unity3d.com/Manual/class-WheelCollider.html).
+
+Un démo web est [disponible en ligne](https://ekines.com/hyperracing/). Il est à noter que le déplacement est à améliorer.
+
+![car](./img/hyperRacing/hyperRacing_car.png)
+![car arena](./img/hyperRacing/hyperRacing_Arena.jpg)
+
+### Une marche en forêt
+> `Unity 2019.2.3f1` `Cinemachine` `Timeline` `Post Processing` `Terrain Tools` - Novembre 2019
+
+> Durant le mois de novembre, la thématique du mensuelle pour le club étudiant [Conjure](https://conjure.etsmtl.ca/) de l'ÉTS a été *la force de la nature*.
+
+Est-ce que je fais un jeu simple ? Non ce n'est pas mon genre.
+Est-ce que je fais une animation qui est rendue en <abbr title="En temps réel souple">temps réel</abbr> avec Unity où je suis le metteur en scène, écrivain, codeur, animateur et en charge du rendu final ? Oui, ça l'air intéressant ! <abbr title="Dans quoi je me suis embarqué encore ?">:sweat_smile:</abbr>.
+Après plusieurs itérations et d'heures d'apprentissage des différents outils, le résultat est très proche de la vision d'origine.
+
+![portal](./img/animForest/lastdruid_shadow_sun_in_tree.jpg)
+
+Un défi non prévu a été le suivant : Comment raconter l'histoire ?
+Après quelques essais, la version sous-titrée a été gardé.
+
+:writing_hand: Un remerciement spécial à [Diego Saavedra](https://www.facebook.com/diegosaavedrarenaud) pour son aide à l'écriture de l'histoire.
+
+**Vidéo**
+
+<div style="position:relative;padding-top:56.25%;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/cQqn5H3E-uw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Une fin de semaine au chalet
 > `Unity 2019.1.14f1` `Animation`  - Août 2019
 

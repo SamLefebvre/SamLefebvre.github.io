@@ -21,7 +21,7 @@ This project is build on [VuePress](https://v1.vuepress.vuejs.org/) which is a V
 
 - Clone this repository
 - `yarn install`
-- `yarn docs:dev`
+- `yarn dev`
 
 Build the website
 - `yarn docs:build`
@@ -31,4 +31,7 @@ Build the website
 
 ## Update
 - Update yarn `choco upgrade yarn`
+- Update yarn `choco upgrade nodejs`
+- Upgrade package.json [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
 - Upgrade packages `yarn upgrade`
+

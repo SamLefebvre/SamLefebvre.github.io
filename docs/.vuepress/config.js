@@ -9,7 +9,7 @@ module.exports = {
     }
   },
   head: [
-    ['script defer',{ src: 'https://use.fontawesome.com/releases/v5.8.1/js/all.js' }],
+    ['script defer',{ src: 'https://use.fontawesome.com/releases/v5.13.1/js/all.js' }],
     ['link', { rel: 'icon', href: '/logo.png' }]
   ],
   locales: {
@@ -34,16 +34,35 @@ module.exports = {
           { text: 'Article', link: '/article/'}
         ],
         sidebarDepth: 3,
+        collapsable: false,
         sidebar: {
           '/article/': [
             '',
             'radarChart',
             'markdownDemo'
           ],
+          // '/portfolio/': [
+          //   '',
+          //   'blender',
+          //   'unity.md',
+          //   'web.md',
+          // ],
+          '/portfolio/': [
+            {
+              title: 'Portfolio',
+              collapsable: false,
+              children: [
+                ['', 'Projets'],
+                'blender',
+                'unity',
+                'web'
+              ]
+            }
+          ],
           // Default
           '/': [
             ['', 'Accueil'],
-            'portfolio',
+            '/portfolio/',
             'interest'
           ]
         }
@@ -111,7 +130,7 @@ module.exports = {
         background: "rgba(33,33,43,0.88)"
       }
     },
-    'img-lazy':{}
+    'img-lazy':{},
   },
   markdown: {
     extendMarkdown(md) {
@@ -122,5 +141,14 @@ module.exports = {
     if (isServer === false) {  // to make geopattern work
       config.node.set('Buffer', false)
     }
+    const inlineLimit = 10000
+    config.module.rule('images')
+      .test(/\.(png|jpe?g|gif|webp)(\?.*)?$/) //webp is not supported by default
+      .use('url-loader')
+        .loader('url-loader')
+        .options({
+          limit: inlineLimit,
+          name: `assets/img/[name].[hash:8].[ext]`
+        })
   }
 }

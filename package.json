@@ -10,20 +10,14 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-medium-zoom": "^1.5.2",
-    "@vuepress/plugin-pwa": "^1.5.2",
-    "vuepress": "^1.5.2"
+    "@vuepress/plugin-medium-zoom": "^1.7.1",
+    "@vuepress/plugin-pwa": "^1.7.1",
+    "vuepress": "^1.7.1"
   },
   "dependencies": {
     "geopattern": "^1.2.3",
-    "moment": "^2.27.0",
-    "moment-timezone": "^0.5.31",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
     "vuepress-plugin-img-lazy": "^1.0.4"
-  },
-  "resolutions": {
-    "watchpack": "1.6.1"
-  },
-  "comments": {
-    "resolutions": "resolutions section is a quick fix for issue 2392, https://github.com/vuejs/vuepress/issues/2392"
   }
 }

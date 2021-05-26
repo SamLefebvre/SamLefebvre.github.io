@@ -5,8 +5,8 @@
 
 En réutilisant la scène créée lors de la [Ville Néon](#ville-neon), j'ai appliqué une texture sur le terrain, une texture de [briques](https://texturehaven.com/tex/?c=bricks&t=random_bricks_thick) et un shader pour la création de fenêtres. HDRI de [HDRIHaven](https://hdrihaven.com/hdri/?h=the_sky_is_on_fire).
 
-<img src="~@assets/img/blender/griffintown/montreal-small.webp"
-:data-zoom-src="require('@assets/img/blender/griffintown/montreal.webp')"
+<img :src="$withBase('~@assets/img/blender/griffintown/montreal-small.webp')"
+:data-zoom-src="$withBase('@assets/img/blender/griffintown/montreal.webp')"
 alt="chalet">
 
 ## Ville néon
@@ -14,9 +14,11 @@ alt="chalet">
 
 L'extension [Blender GIS](https://github.com/domlysz/BlenderGIS), permet d'importer des terrains en 3D. Avec la même extension, il est possible d'obtenir un modèle des bâtiments.
 
-<div style="position:relative;padding-top:56.25%;">
+<!-- <div style="position:relative;padding-top:56.25%;">
     <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/YxuYwCPVAFw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+</div> -->
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YxuYwCPVAFw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Suivi
 > `Blender 2.83.1` `RTMG` `4k` `60fps` - 4 juillet juin 2020
@@ -32,9 +34,7 @@ Quatrième projet basé sur le cours [Real Time Motion Graphics](https://blender
 > `Blender 2.83.1` - 2 juillet juin 2020
 En utilisant l'extension [Cell Fracture](https://docs.blender.org/manual/en/2.83/addons/object/cell_fracture.html), j'ai expérimenté pour créer un effet d'arrêt de temps permettant de repositionner la caméra.
 
-<video width="100%" height="100%" controls>
-  <source src="~@assets/video/glass_breaking.webm" type="video/webm">
-  Your browser does not support the video tag.
+<video width="100%" height="100%" controls :src="$withBase('~@assets/video/glass_breaking.webm')" type="video/webm">
 </video>
 
 
@@ -64,10 +64,8 @@ Quelques modifications ont été apportés pour avoir une animation en boucle.
 Pour fêter [Fête nationale du Québec](https://fr.wikipedia.org/wiki/F%C3%AAte_nationale_du_Qu%C3%A9bec), j'ai animé un drapeau.
 Temps de création : 30 min.
 Temps de rendu : 45 min.
-<video width="100%" height="100%" controls>
-  <source src="~@assets/video/drapeau_quebec.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+<video width="100%" height="100%" controls :src="$withBase('~@assets/video/drapeau_quebec.webm')" type="video/webm">
+ </video>
 
 ## Oh non
 > `Blender 2.83.1` `Simulation de vêtements`- 24 juin 2020
@@ -94,8 +92,8 @@ Beigne créé en suivant [Blender Beginner Tutorial Series](https://www.youtube.
 ### Beigne et café
 > `Blender 2.83` - 11 juin 2020
 
-<img src="~@assets/img/blender/donut/donut-small.jpg"
-:data-zoom-src="require('@assets/img/blender/donut/donut.jpg')"
+<img :src="$withBase('~@assets/img/blender/donut/donut-small.jpg')"
+:data-zoom-src="$withBase('@assets/img/blender/donut/donut.jpg')"
 alt="chalet">
 
 ### Beigne et physique
@@ -104,7 +102,7 @@ alt="chalet">
 Je me demandais comment faire afficher des paillettes de sucre sans qu'il n'y ait de conflits de positionnement. Ce petit vidéo montre une solution en créant un générateur de particules dont chacune a un Rigid Body. Le principe est intéressant et fonctionnel, cependant avec un temps de calcul de 4 heures, j'ai décidé de ne pas garder le principe.
 
 <video width="100%" height="100%" controls>
-  <source src="~@assets/video/donut_sprinkles.webm" type="video/webm">
+  <source :src="$withBase('~@assets/video/donut_sprinkles.webm')" type="video/webm">
   Your browser does not support the video tag.
 </video>
 

@@ -24,20 +24,20 @@ Avec un <abbr title="Un photopléthysmogramme">capteur de pulsation</abbr> plac�
 ![car](./img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_explosion.png)
 ![car](./img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_demo.jpg) -->
 
-<img src="~@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_red_cube-small.jpg"
-:data-zoom-src="require('@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_red_cube.png')"
+<img :src="$withBase('~@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_red_cube-small.jpg')"
+:data-zoom-src="$withBase('@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_red_cube.png')"
 alt="red cube">
 
-<img src="~@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_ennemies-small.jpg"
-:data-zoom-src="require('@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_ennemies.png')"
+<img :src="$withBase('~@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_ennemies-small.jpg')"
+:data-zoom-src="$withBase('@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_ennemies.png')"
 alt="ennemies">
 
-<img src="~@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_explosion-small.jpg"
-:data-zoom-src="require('@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_explosion.png')"
+<img :src="$withBase('~@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_explosion-small.jpg')"
+:data-zoom-src="$withBase('@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_explosion.png')"
 alt="ennemies">
 
-<img src="~@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_demo-small.jpg"
-:data-zoom-src="require('@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_demo.jpg')"
+<img :src="$withBase('~@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_demo-small.jpg')"
+:data-zoom-src="$withBase('@assets/img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_demo.jpg')"
 alt="ennemies">
 
 ## Course en lowPoly
@@ -50,12 +50,12 @@ Le déplacement de la voiture s'est fait avec le système de physique [Wheel Col
 
 Un démo web est [disponible en ligne](https://ekines.com/hyperracing/). Il est à noter que le déplacement est à améliorer.
 
-<img src="~@assets/img/hyperRacing/hyperRacing_car-small.jpg"
-:data-zoom-src="require('@assets/img/hyperRacing/hyperRacing_car.png')"
+<img :src="$withBase('~@assets/img/hyperRacing/hyperRacing_car-small.jpg')"
+:data-zoom-src="$withBase('@assets/img/hyperRacing/hyperRacing_car.png')"
 alt="car">
 
-<img src="~@assets/img/hyperRacing/hyperRacing_Arena-small.jpg"
-:data-zoom-src="require('@assets/img/hyperRacing/hyperRacing_Arena.jpg')"
+<img :src="$withBase('~@assets/img/hyperRacing/hyperRacing_Arena-small.jpg')"
+:data-zoom-src="$withBase('@assets/img/hyperRacing/hyperRacing_Arena.jpg')"
 alt="car">
 
 ## Une marche en forêt
@@ -67,8 +67,8 @@ Est-ce que je fais un jeu simple ? Non ce n'est pas mon genre.
 Est-ce que je fais une animation qui est rendue en <abbr title="En temps réel souple">temps réel</abbr> avec Unity où je suis le metteur en scène, écrivain, codeur, animateur et en charge du rendu final ? Oui, ça l'air intéressant ! <abbr title="Dans quoi je me suis embarqué encore ?">:sweat_smile:</abbr>.
 Après plusieurs itérations et d'heures d'apprentissage des différents outils, le résultat est très proche de la vision d'origine.
 
-<img src="~@assets/img/animForest/lastdruid_shadow_sun_in_tree-small.jpg"
-:data-zoom-src="require('@assets/img/animForest/lastdruid_shadow_sun_in_tree.jpg')"
+<img :src="$withBase('~@assets/img/animForest/lastdruid_shadow_sun_in_tree-small.jpg')"
+:data-zoom-src="$withBase('@assets/img/animForest/lastdruid_shadow_sun_in_tree.jpg')"
 alt="portal">
 
 Un défi non prévu a été le suivant : Comment raconter l'histoire ?
@@ -91,8 +91,8 @@ Après quelques essais, la version sous-titrée a été gardé.
 Complètement réalisé avec des assets gratuit, son d'ambiance enregistré moi-même et nettoyé avec Audacity.
 
 
-<img src="~@assets/img/cabin/old_Cabin_woods-small.jpg"
-:data-zoom-src="require('@assets/img/cabin/old_Cabin_woods.jpg')"
+<img :src="$withBase('~@assets/img/cabin/old_Cabin_woods-small.jpg')"
+:data-zoom-src="$withBase('@assets/img/cabin/old_Cabin_woods.jpg')"
 alt="chalet">
 
 **Vidéo**
@@ -110,14 +110,12 @@ Mouvement avec le [NavMesh](https://docs.unity3d.com/Manual/nav-BuildingNavMesh.
 Une mise à jour avec le lien sur le Google Play Store est à venir.
 :::
 
-<img src="~@assets/img/aiMaze/image_aiMaze-small.jpg"
-:data-zoom-src="require('@assets/img/aiMaze/image_aiMaze.jpg')"
+<img :src="$withBase('~@assets/img/aiMaze/image_aiMaze-small.jpg')"
+:data-zoom-src="$withBase('@assets/img/aiMaze/image_aiMaze.jpg')"
 alt="aiMaze">
 
 **Vidéo avec la bande sonore**
-<video width="100%" height="100%" controls>
-  <source src="~@assets/img/aiMaze/video_aiMaze.webm" type="video/mp4">
-  Your browser does not support the video tag.
+<video width="100%" height="100%" controls :src="$withBase('~@assets/img/aiMaze/video_aiMaze.webm')" type="video/mp4">
 </video>
 
 ## Rouler en mode rétro
@@ -142,9 +140,8 @@ Dans le cadre de mon cours *GTI745 - Interfaces utilisateurs avancées* à l'ÉT
 
 **Interface principale** : Séquenceur musical avec une console permettant d'ajuster le son.
 
-<img src="~@assets/img/gti745/gti745_unity_sound_matrix-small.jpg"
-:data-zoom-src="require('@assets/img/gti745/gti745_unity_sound_matrix.jpg')"
-loading="lazy" class="lazy"
+<img :src="$withBase('~@assets/img/gti745/gti745_unity_sound_matrix-small.jpg')"
+:data-zoom-src="$withBase('@assets/img/gti745/gti745_unity_sound_matrix.jpg')"
 width=800px
 alt="sound matrix">
 

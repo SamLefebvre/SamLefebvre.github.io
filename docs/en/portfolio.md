@@ -30,10 +30,7 @@ An update with the link on the Google Play Store is coming soon.
 ![aiMaze](./../img/aiMaze/image_aiMaze.jpg)
 
 **Video with sound**
-<video width="100%" height="100%" controls>
-  <source src="./../img/aiMaze/video_aiMaze.webm" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<video width="100%" height="100%" controls :src="$withBase('/img/aiMaze/video_aiMaze.webm')" type="video/mp4"></video>
 
 ### Roll in the 80s
 Unity 2019.1.13f1 - August 2019

@@ -1,0 +1,12 @@
+// In VuePress 2.0x I should use index.scss for the CSS
+
+body{
+    overflow-y:scroll;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  & > div {
+    margin: 10px;
+    }
+}

@@ -1,15 +1,15 @@
 # Portfolio
 
-Projets utilisant [Blender](blender)
+Projets utilisant [Blender](./blender.md)
 
-<router-link to="/portfolio/blender"><i class="fas fa-cubes fa-7x orange svgBorder" aria-hidden="true"></i></router-link>
-
-
-Projets utilisant [Unity](unity).
-
-<router-link to="/portfolio/unity"><i class="fab fa-unity fa-7x black" aria-hidden="true"></i></router-link>
+<RouterLink to="./blender.html"><i class="fas fa-cubes fa-7x orange svgBorder" aria-hidden="true"></i></RouterLink>
 
 
-Projets [web](web).
+Projets utilisant [Unity](./unity.md).
 
-<router-link to="/portfolio/web" class="home-link"><i class="fa fa-globe-americas fa-7x svgBorder" aria-hidden="true"></i></router-link>
+<RouterLink to="./unity.html"><i class="fab fa-unity fa-7x black" aria-hidden="true"></i></RouterLink>
+
+
+Projets [web](./web.md).
+
+<RouterLink to="./web.html" class="home-link"><i class="fa fa-globe-americas fa-7x svgBorder" aria-hidden="true"></i></RouterLink>

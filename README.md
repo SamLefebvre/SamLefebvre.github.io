@@ -35,3 +35,24 @@ Build the website
 - Upgrade package.json [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
 - Upgrade packages `yarn upgrade`
 
+Cleanup node_modules
+- `rm -r -force node_modules`
+- `rm yarn.lock`
+- `yarn cache clean`
+- `yarn install`
+
+Note for Vuepress 2.0
+Use relative path instead of absolute
+ 
+<!-- relative path -->
+[Home](../README.md)  
+[Config Reference](../reference/config.md)  
+[Getting Started](./getting-started.md)  
+<!-- absolute path -->
+[Guide](/guide/README.md)  
+[Config Reference > markdown.links](/reference/config.md#links)  
+<!-- URL -->
+[GitHub](https://github.com)  
+
+dans liens markdown => link avec .md
+dans liens RouterLinks => links avec .html

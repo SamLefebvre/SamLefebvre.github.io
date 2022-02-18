@@ -6,6 +6,9 @@ next: false
 ---
 <githubcorner />
 
+
+[Blog !](./blog/Readme.md)
+
 <div class="flex-container">
   <div><RouterLink to="/portfolio/" class="home-link"><InfoCard title="Portfolio" logo="far fa-file-code"/></RouterLink></div>
   <div><a href="https://github.com/SamLefebvre" target="_blank"><InfoCard title="GitHub" logo="fab fa-github"/></a></div>

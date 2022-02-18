@@ -1,6 +1,16 @@
 const { path } = require('@vuepress/utils')
 
 module.exports = {
+  clientAppSetupFiles: path.resolve(__dirname, 'clientAppSetup.ts'),
+  onPrepared: async (app) => {
+    const myData = app.pages.map((page) => {
+      // ...
+      return page; 
+    })
+    await app.writeTemp('my-data.js', `export default ${JSON.stringify(myData)}`)
+  },
+
+
   clientAppEnhanceFiles: path.resolve(__dirname, 'clientAppEnhance.js'),
   configureWebpack: {
     resolve: {
@@ -9,10 +19,14 @@ module.exports = {
       }
     }
   },
+  alias: {
+    '@alias': path.resolve(__dirname, '../assets'),
+  },
  
   head: [
     ['script',{ src: 'https://use.fontawesome.com/releases/v5.13.1/js/all.js' }],
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['link', { rel: 'icon', href: '/logo.png' }],
+    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
   ],
   locales: {
     '/': {
@@ -106,7 +120,8 @@ module.exports = {
     //     }
     //   }
     // },
-
+    '/blog/': 'auto',
+    darkMode: true,
     updatePopup: false, // Boolean | Object, default to undefined.
     lastUpdatedText: '⏳️', // string | boolean
 
@@ -128,7 +143,7 @@ module.exports = {
           moment.locale(lang)
           return moment(timestamp).fromNow()
         }
-      }
+      },
     ]
   ]
   

@@ -44,8 +44,8 @@ export default {
 <style scoped>
 
 .info-card {
-  height: 18.75rem;
-  width: 18.75rem;
+  height: 16rem;
+  width: 16rem;
 
   text-align: center;
   background-color:darkgrey;

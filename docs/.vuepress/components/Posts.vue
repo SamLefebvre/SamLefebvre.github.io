@@ -37,13 +37,16 @@ export default {
   },
   mounted() {
 
+    
     myPages.forEach(page => {
-      if (page.frontmatter.type === 'article') {
+      if (page.frontmatter.type === 'blog') {
         this.pages.push(page)
-        this.excerpts.push(page.excerpt)
-        
+        // this.excerpts.push(page.excerpt)        
       }
     })
+    
+    this.pages.sort((a, b) => a.frontmatter.date > b.frontmatter.date ? 1 : -1);
+
   },
   methods: {
     imgUrlAlt(event) {

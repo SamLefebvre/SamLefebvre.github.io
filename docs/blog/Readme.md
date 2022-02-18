@@ -3,7 +3,6 @@ lang: fr-CA
 title: Blog listing
 description: Basic intro to vuepress
 author: Sam
-type: article
 sidebar: auto
 ---
 

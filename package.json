@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:nav": "vuepress nav docs"
   },
   "devDependencies": {
     "@vuepress/plugin-medium-zoom": "2.0.0-beta.35",

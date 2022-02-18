@@ -15,7 +15,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@assets': path.resolve(__dirname,"../assets")
+        '@assets': path.resolve(__dirname,"./assets")
       }
     }
   },
@@ -24,7 +24,7 @@ module.exports = {
   },
  
   head: [
-    ['script',{ src: 'https://use.fontawesome.com/releases/v5.13.1/js/all.js' }],
+    ['script',{ src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js' }],
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
   ],

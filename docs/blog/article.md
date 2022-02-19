@@ -1,7 +1,7 @@
 ---
 lang: fr-CA
 title: My first article
-description: consectetur *adipiscing* **elit**. Donec id turpis eu felis lobortis auctor luctus et risus. Etiam nec turpis posuere, viverra neque sed, ullamcorper 
+description: Article datant du 2022-02-15 Duis imperdiet, nulla nec tincidunt auctor, libero nisl auctor lectus, imperdiet molestie diam purus ut augue. Cras faucibus eros quis dolor accumsan fermentum. Fusce id venenatis enim. Maecenas eget pulvinar neque. Etiam euismod, dui nec molestie dapibus, urna felis tristique velit,
 author: Sam
 type: blog
 creationDate: Janvier 2020

@@ -1,9 +1,5 @@
 # Unity
 
-
-![arcane](./arcane.jpg)
-
-
 ## Jouer avec son coeur
 > `Unity 2019.2.17f1` `IHM` - Janvier 2020
 
@@ -89,7 +85,7 @@ Mouvement avec le [NavMesh](https://docs.unity3d.com/Manual/nav-BuildingNavMesh.
 
 **Vidéo avec la bande sonore**
 
-<video controls width="500"><source :src="$withBase('/images/aiMaze.webm')" type="video/webm">
+<video controls width="500"><source :src="$withBase('/videos/aiMaze.webm')" type="video/webm">
     Sorry, your browser doesn't support embedded videos.
 </video>
 

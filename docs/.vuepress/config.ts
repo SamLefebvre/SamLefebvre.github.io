@@ -1,4 +1,5 @@
 const { path } = require('@vuepress/utils')
+import { navbar, sidebar } from './configs'
 
 module.exports = {
   clientAppSetupFiles: path.resolve(__dirname, 'clientAppSetup.ts'),
@@ -120,7 +121,14 @@ module.exports = {
     //     }
     //   }
     // },
-    '/blog/': 'auto',
+        // sidebar array
+    
+        // all pages will use the same sidebar
+    navbar: navbar.fr,
+
+    // sidebar
+    sidebar: sidebar.fr,
+
     darkMode: true,
     updatePopup: false, // Boolean | Object, default to undefined.
     lastUpdatedText: '⏳️', // string | boolean

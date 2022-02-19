@@ -1,8 +1,5 @@
-
 <template>
   <div class="post-container">
-
-
     <div v-for="page in pages" :key='page.path' class="post-card">
         <RouterLink class="article-image" :to="page.path">
           <a :href="page.path"><img :src="$withBase('/images/' + page.frontmatter.posterImage)" @error="imgUrlAlt"  alt="image"></a>
@@ -25,10 +22,10 @@
 
 <script>
 import myPages from '@temp/my-data'
-import VueSanitize from "vue-sanitize"
-import sanitizeHtml from 'sanitize-html';
 
 export default {
+  name: 'Posts',
+  props: ['articleType'],
   data() {
     return {
       pages: [],
@@ -36,16 +33,15 @@ export default {
     }
   },
   mounted() {
-
-    
     myPages.forEach(page => {
-      if (page.frontmatter.type === 'blog') {
+      if (page.frontmatter.type === this.articleType) {
         this.pages.push(page)
         // this.excerpts.push(page.excerpt)        
+        //console.log(this.articleType);
       }
     })
     
-    this.pages.sort((a, b) => a.frontmatter.date > b.frontmatter.date ? 1 : -1);
+    this.pages.sort((a, b) => a.frontmatter.date < b.frontmatter.date ? 1 : -1);
 
   },
   methods: {
@@ -76,10 +72,8 @@ export default {
   
 
 }
-
-
-
-console.log(myPages);
+// Debug, show all pages in console
+// console.log(myPages);
 </script>
 
 <style scoped>
@@ -112,12 +106,12 @@ console.log(myPages);
     flex-wrap: wrap;
 }
 .post-card {
-  width: 600px;
+  width:var(--content-width);
   /* height: 150px; */
-  margin: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid var(--c-border);
+  border-radius: 10px;
+  padding: 5px;
   display: flex;
   align-items: flex-start;
 }

@@ -21,8 +21,6 @@
     "@vuepress/plugin-last-updated": "^1.9.7",
     "geopattern": "^1.2.3",
     "moment": "^2.29.1",
-    "moment-timezone": "^0.5.34",
-    "sanitize-html": "^2.7.0",
-    "vue-sanitize": "^0.2.1"
+    "moment-timezone": "^0.5.34"
   }
 }

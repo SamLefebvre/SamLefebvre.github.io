@@ -32,10 +32,9 @@ Quatrième projet basé sur le cours [Real Time Motion Graphics](https://blender
 > `Blender 2.83.1` - 2 juillet juin 2020
 En utilisant l'extension [Cell Fracture](https://docs.blender.org/manual/en/2.83/addons/object/cell_fracture.html), j'ai expérimenté pour créer un effet d'arrêt de temps permettant de repositionner la caméra.
 
-<video width="100%" height="100%" controls :src="$withBase('~@assets/video/glass_breaking.webm')" type="video/webm">
+<video controls width="500"><source :src="$withBase('/videos/glass_breaking.webm')" type="video/webm">
+    Sorry, your browser doesn't support embedded videos.
 </video>
-
-
 ## Marche
 > `Blender 2.83.1` `RTMG` `4k` `60fps` - 30 juin 2020
 
@@ -62,8 +61,11 @@ Quelques modifications ont été apportés pour avoir une animation en boucle.
 Pour fêter [Fête nationale du Québec](https://fr.wikipedia.org/wiki/F%C3%AAte_nationale_du_Qu%C3%A9bec), j'ai animé un drapeau.
 Temps de création : 30 min.
 Temps de rendu : 45 min.
-<video width="100%" height="100%" controls :src="$withBase('~@assets/video/drapeau_quebec.webm')" type="video/webm">
- </video>
+
+<video controls width="500"><source :src="$withBase('/videos/drapeau_quebec.webm')" type="video/webm">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
 
 ## Oh non
 > `Blender 2.83.1` `Simulation de vêtements`- 24 juin 2020
@@ -90,19 +92,17 @@ Beigne créé en suivant [Blender Beginner Tutorial Series](https://www.youtube.
 ### Beigne et café
 > `Blender 2.83` - 11 juin 2020
 
-<img :src="$withBase('~@assets/img/blender/donut/donut-small.jpg')"
-:data-zoom-src="$withBase('@assets/img/blender/donut/donut.jpg')"
-alt="chalet">
+![donut](../assets/img/blender/donut/donut.jpg)
 
 ### Beigne et physique
 > `Blender 2.83` `Physique` - 8 juin 2020
 
 Je me demandais comment faire afficher des paillettes de sucre sans qu'il n'y ait de conflits de positionnement. Ce petit vidéo montre une solution en créant un générateur de particules dont chacune a un Rigid Body. Le principe est intéressant et fonctionnel, cependant avec un temps de calcul de 4 heures, j'ai décidé de ne pas garder le principe.
 
-<video width="100%" height="100%" controls>
-  <source :src="$withBase('~@assets/video/donut_sprinkles.webm')" type="video/webm">
-  Your browser does not support the video tag.
+<video controls width="500"><source :src="$withBase('/videos/donut_sprinkles.webm')" type="video/webm">
+    Sorry, your browser doesn't support embedded videos.
 </video>
+
 
 ## Animation d'une voiture
 > `Blender 2.82a` - 7 juin 2020
@@ -110,6 +110,7 @@ Je me demandais comment faire afficher des paillettes de sucre sans qu'il n'y ai
 Le résultat après avoir suivi le cours [Blender 2.8 Launch Pad](https://academy.cgboost.com/p/blender-2-8-launch-pad).
 Temps de création : >100 heures. (Je ne connaissais pas Blender avant)
 Temps de rendu : ~4 heures.
+
 <div style="position:relative;padding-top:56.25%;">
     <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/vCCTq3kAiBY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

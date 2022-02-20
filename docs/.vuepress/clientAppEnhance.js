@@ -3,6 +3,7 @@ import githubcorner from './components/githubcorner.vue'
 import InfoCard from './components/InfoCard.vue'
 import MediumZoom from './components/MediumZoom.vue'
 import Posts from './components/Posts.vue'
+import MathJax from './components/MathJax.vue'
 
 export default
 
@@ -12,7 +13,8 @@ export default
   app.component("InfoCard", InfoCard);
   app.component("MediumZoom", MediumZoom);
   app.component("Posts", Posts);
-})
+  app.component("EnableMathJax", MathJax);
+},)
 
 
 

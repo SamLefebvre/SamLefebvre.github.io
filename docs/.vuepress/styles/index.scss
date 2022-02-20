@@ -33,3 +33,17 @@ kbd {
   padding: 2px 4px;
   white-space: nowrap;
  }
+
+ div:nth-last-child(1) > div > button.navbar-dropdown-title > span.title::before {
+  content: ''; 
+  position: relative;
+  mask-image: url(/images/translation.svg);
+  mask-repeat: no-repeat;
+  padding-right: 1.5rem;
+  position: relative;
+  top: 3px;
+  background-color: var(--c-text);
+}
+
+
+

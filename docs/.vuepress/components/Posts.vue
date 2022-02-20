@@ -94,6 +94,7 @@ export default {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+  margin-top: 5px;
 }
 .page-detail{
   /* display: flex; */

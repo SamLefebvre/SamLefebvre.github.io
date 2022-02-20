@@ -1,5 +1,5 @@
 # Projets
 
-Mes différents projets, code, dev, artistique, 3d.
+Mes différents projets, réalisé à l'aide d'Unity, Blender ou de tout autre medium.
 
 <Posts articleType="project" />

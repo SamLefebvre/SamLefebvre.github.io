@@ -3,7 +3,7 @@ import type { SidebarConfig } from '@vuepress/theme-default'
 export const fr: SidebarConfig = [
   {
     link:'/',
-    text:'Home',
+    text:'Accueil',
   },
   // SidebarItem Portfolio
   {
@@ -12,13 +12,21 @@ export const fr: SidebarConfig = [
     collapsible:true,
     children: ['/portfolio/unity.md', '/portfolio/blender.md'],
   },
-  // SidebarItem Blog
+  // SidebarItem Projets
   {
-    text: 'Blog',
-    link: '/blog',
+    text: 'Projets',
+    link: '/projects',
     collapsible:true,
-    children: ['/blog/article.md', '/blog/article2.md'],
+    children: ['/projects/labyrintheBlender.md'],
+  },
+  // SidebarItem Projets
+  {
+    text: 'Tutoriels',
+    link: '/tutorials',
+    collapsible:true,
+    children: ['/tutorials/interfaceUnity.md'],
   },
   // Single page
-  '/interest.md',
+  '/research.md',
+  '/Contact.md',
 ]

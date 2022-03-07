@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.com/SamLefebvre/SamLefebvre.github.io.svg?branch=production)](https://travis-ci.com/SamLefebvre/SamLefebvre.github.io)
+[![status](https://github.com/SamLefebvre/SamLefebvre.github.io/actions/workflows/vuepress-deploy.yml/badge.svg)](https://github.com/SamLefebvre/SamLefebvre.github.io/actions/workflows/vuepress-deploy.yml)
+
 # Welcome !
 
 This GitHub project is behind my personal website: https://samlefebvre.github.io
@@ -27,7 +28,7 @@ Build the website
 - `yarn docs:build`
 
 ## Deployment
-- Automatic deployment via travis-cli
+- Automatic deployment via Github Actions
 
 ## Update
 - Update yarn `choco upgrade yarn`

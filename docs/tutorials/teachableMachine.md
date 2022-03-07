@@ -11,12 +11,11 @@ posterImage:
 
 # Teachable Machine
 
-[Teachable Machine](https://teachablemachine.withgoogle.com/), est un outil de Google permettant la reconnaissance d'images, de sons et de posture à même le navigateur, le tout en quelques minutes.
+[Teachable Machine](https://teachablemachine.withgoogle.com/), est un outil de Google permettant la reconnaissance d'images, de sons et de posture à même le navigateur, le tout en quelques minutes. Cet outil est pratique pour effectuer du prototypage rapide, sans nécessiter  à passer des heures à coder et à entraîner un système d'apprentissage automatique d'images.
 
+La question que je me suis posée : «Comment utiliser cet outil dans Unity ?». 
 
-Cet outil est pratique pour effectuer des prototypes rapide, sans avoir à passer des heures à coder et à entraîner un système d'apprentissage automatique d'images.
-
-La question que je me suis demandé : «Comment utiliser cet outil dans Unity ?». N'ayant pas trouvé de solution à ce cas atypique, j'ai trouvé qu'en reliant à l'aide du protocole WebSocket le navigateur internet et Unity, il est possible de transmettre les informations de Teachable Machine à Unity.
+N'ayant pas trouvé de solution à ce cas atypique, je propose une solution par l'utilisation du protocole [WebSocket](https://developer.mozilla.org/fr/docs/Web/API/WebSockets_API), ainsi qu'une démonstration complète d'une implémentation.
 
 Bonne écoute !
 

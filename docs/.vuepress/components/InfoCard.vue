@@ -51,6 +51,7 @@ export default {
   background-color:darkgrey;
   display:table;
   color:white;
+  border-radius: 5px;
 }
 
 div.info-card:hover {
@@ -69,11 +70,17 @@ div.info-card:hover {
   font-size: 3rem;
   color:inherit;
   height:fit-content;
-  text-shadow:
+text-shadow:
+   -2px -2px 1px black,
+    2px -2px 1px black,
+    -2px 2px 1px black,
+     2px 2px 1px black;
+
+  /* text-shadow:
    -1px -1px 5px black,
     1px -1px 5px black,
     -1px 1px 5px black,
-     1px 1px 5px black;
+     1px 1px 5px black; */
 }
 .info-card-logo{
   color:inherit;
@@ -89,15 +96,16 @@ div.info-card:hover {
 
 .svg-inline--fa{ /* outline logo */
   stroke: black;
-  stroke-width: 2px;
+  stroke-width: 5px;
 }
 
 .shadow {
-  -webkit-filter: drop-shadow( 10px 10px 5px rgba(0, 0, 0, .9));
-  filter: drop-shadow( 10px 10px 5px rgba(0, 0, 0, .9));
+  -webkit-filter: drop-shadow( 4px 3px 2px rgba(0, 0, 0, 0.5));
+  /* filter: drop-shadow( 10px 10px 5px rgba(0, 0, 0, .9)); */
+  filter: drop-shadow( 4px 3px 2px rgba(0, 0, 0, 0.5));
 }
 .info-card-logo-background {
-  background-color:rgba(102, 102, 102, 0.55);
+  /* background-color:rgba(102, 102, 102, 0.55); */
   padding:25px;
   border-radius: 20px;
   display: inline-block;

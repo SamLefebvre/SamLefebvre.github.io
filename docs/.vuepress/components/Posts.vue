@@ -110,15 +110,17 @@ export default {
   width:var(--content-width);
   /* height: 150px; */
   margin: 10px 0px 10px 0px;
-  border: 1px solid var(--c-border);
-  border-radius: 10px;
-  padding: 5px;
+  border-bottom: 2px solid var(--c-border);
+  border-top: 2px solid var(--c-border);
+  /* border-radius: 5px; */
+  padding: 10px;
   display: flex;
   align-items: flex-start;
 }
 .article-image {
   /* height:150px; */
   width: 150px;
+  padding-top:5px;
 }
 .description {
   width: 100%;

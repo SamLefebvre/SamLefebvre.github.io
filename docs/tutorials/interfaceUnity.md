@@ -15,8 +15,9 @@ posterImage: interfaceUnity.jpg
 
 Dans ce tutoriel, l'interface d'Unity est montrée pour en profiter à son plein potentiel. Il s'agit de mieux comprendre comment fonctionne l'éditeur.
 Lorsqu'on utiliser un logiciel pour la première fois, il est souvent déconcertant d'en connaître les possibilités, lorsque plusieurs des fonctionnalités ne sont pas explicitent.
-
-<iframe width="720" height="405" src="https://www.youtube.com/embed/z7tyLZp1D_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtubeVideo">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/z7tyLZp1D_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Lorsqu'on débute dans un logiciel complexe, il est parfois difficile de s'imaginer les différentes possibilités si l'on ne l'a jamais vu auparavant. Alors c'est dans cette idée que ce tutoriel a été créé. De donner brièvement un aperçu des possibilités.
 

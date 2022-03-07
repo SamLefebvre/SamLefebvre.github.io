@@ -130,6 +130,7 @@ module.exports = {
     sidebar: sidebar.fr,
 
     darkMode: true,
+    prefersTheme: 'dark',
     updatePopup: false, // Boolean | Object, default to undefined.
     lastUpdatedText: '⏳️', // string | boolean
 

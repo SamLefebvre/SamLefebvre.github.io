@@ -24,7 +24,10 @@ export const fr: SidebarConfig = [
     text: 'Tutoriels',
     link: '/tutorials',
     collapsible:true,
-    children: ['/tutorials/interfaceUnity.md'],
+    children: [
+      '/tutorials/interfaceUnity.md',
+      '/tutorials/fracturationBlenderUnity.md',
+      '/tutorials/teachableMachine.md'],
   },
   // Single page
   '/research.md',

@@ -1,0 +1,1 @@
+import{_ as s,r as t,o as a,c as r,b as n,F as c,a as e,d}from"./app.eb447150.js";const _={},l=e("h1",{id:"blog",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#blog","aria-hidden":"true"},"#"),d(" Blog")],-1),i=e("p",null,"Trois diff\xE9rents articles",-1);function f(h,p){const o=t("posts");return a(),r(c,null,[l,i,n(o)],64)}var u=s(_,[["render",f]]);export{u as default};

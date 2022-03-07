@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as r,F as c,a as e,d as s}from"./app.eb447150.js";const n={},o=e("h1",{id:"article",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#article","aria-hidden":"true"},"#"),s(" Article")],-1),l=e("p",null,[e("i",{class:"fas fa-file-alt fa-4x"})],-1);function i(d,_){return t(),r(c,null,[o,l],64)}var h=a(n,[["render",i]]);export{h as default};

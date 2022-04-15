@@ -1406,7 +1406,7 @@
     "@vuepress/types" "1.9.7"
     cross-spawn "^6.0.5"
 
-"@vuepress/plugin-medium-zoom@2.0.0-beta.38", "@vuepress/plugin-medium-zoom@2.0.0-beta.39":
+"@vuepress/plugin-medium-zoom@2.0.0-beta.38":
   version "2.0.0-beta.38"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-2.0.0-beta.38.tgz#9d4150fba3c2797d32ca0648e1a3eefb79953c05"
   integrity sha512-ERuvdkaPSbloHUBAUjJBj1pXWluEZdC5j18eQ478jtYdC/QLd/BDyM2KP1xwWcn+cOrLJ9L8/7NBTjfxUWBpWg==
@@ -1446,7 +1446,7 @@
     "@vuepress/core" "2.0.0-beta.38"
     prismjs "^1.27.0"
 
-"@vuepress/plugin-pwa@2.0.0-beta.39":
+"@vuepress/plugin-pwa@2.0.0-beta.38":
   version "2.0.0-beta.38"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-pwa/-/plugin-pwa-2.0.0-beta.38.tgz#ecf244232760c61d641c767684465ed1859b3f41"
   integrity sha512-UkR20H8y4vxpgNYsdGjdms46y5hSPHLbDwP7o33DJLn0PQUhfq6SY0DaKSI0ockM+fKLb/kKPIytYJi0qolWzg==

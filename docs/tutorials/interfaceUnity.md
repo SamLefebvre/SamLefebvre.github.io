@@ -11,7 +11,7 @@ posterImage: interfaceUnity.jpg
 
 # Exploration de l'interface d'Unity
 
-<EnableMathJax/>
+
 
 Dans ce tutoriel, l'interface d'Unity est montrée pour en profiter à son plein potentiel. Il s'agit de mieux comprendre comment fonctionne l'éditeur.
 Lorsqu'on utiliser un logiciel pour la première fois, il est souvent déconcertant d'en connaître les possibilités, lorsque plusieurs des fonctionnalités ne sont pas explicitent.
@@ -41,7 +41,7 @@ Quelques raccourcis pratiques :
 
 ## Nombre irrationnel
 Pour entrer un nombre irrationnel, par exemple le cercle trigonométrique, il est possible de le rentrer directement au lieu de rentrer une approximation.
-
+<EnableMathJax/>
 $$
 \textrm{P} \left( \frac{\pi}{6}\right) \Rightarrow  \left(\cos{\left( \frac{\pi}{6}\right)} , \sin{\left( \frac{\pi}{6}\right)}\right) \equiv \left( \frac{\sqrt{3}}{2}, \frac{1}{2} \right)\approx \left( 0.866,0.5 \right)  
 $$

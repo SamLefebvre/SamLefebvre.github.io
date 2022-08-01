@@ -8,21 +8,21 @@ export const fr: SidebarConfig = [
   // SidebarItem Portfolio
   {
     text: 'Portfolio',
-    link: '/portfolio',
+    link: '/portfolio/',
     collapsible:true,
     children: ['/portfolio/unity.md', '/portfolio/blender.md'],
   },
   // SidebarItem Projets
   {
     text: 'Projets',
-    link: '/projects',
+    link: '/projects/',
     collapsible:true,
     children: ['/projects/labyrintheBlender.md'],
   },
   // SidebarItem Projets
   {
     text: 'Tutoriels',
-    link: '/tutorials',
+    link: '/tutorials/',
     collapsible:true,
     children: [
       '/tutorials/interfaceUnity.md',

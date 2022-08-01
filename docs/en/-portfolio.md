@@ -1,4 +1,4 @@
-# Portfolio
+<!-- # Portfolio
 
 ## Unity
 
@@ -104,4 +104,4 @@ Made in the Udemy React couse [The Complete React Developer Course](https://www.
 
 SynapsÉTS is a new science-based student club of the École de Technologie Supérieure and specialized in brain-machine interface (ICM / BCI). Bringing together all areas of expertise of the university, this group of students focuses its activities around the analysis and processing of cerebral signals and in the development of technologies in this area.
 
-[![SynapsÉTS Website](./../img/web_synapsets.jpg)](https://synapsets.etsmtl.ca)
+[![SynapsÉTS Website](./../img/web_synapsets.jpg)](https://synapsets.etsmtl.ca) -->

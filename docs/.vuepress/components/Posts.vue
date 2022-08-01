@@ -25,7 +25,7 @@ import myPages from '@temp/my-data'
 
 export default {
   name: 'Posts',
-  props: ['articleType'],
+  props: ['articleType','lang'],
   data() {
     return {
       pages: [],
@@ -34,7 +34,8 @@ export default {
   },
   mounted() {
     myPages.forEach(page => {
-      if (page.frontmatter.type === this.articleType) {
+      // console.log(page.frontmatter.lang);
+      if (page.frontmatter.type === this.articleType && page.frontmatter.lang === this.lang) {
         this.pages.push(page)
         // this.excerpts.push(page.excerpt)        
         //console.log(this.articleType);

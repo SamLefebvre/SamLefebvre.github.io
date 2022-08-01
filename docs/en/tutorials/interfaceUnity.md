@@ -1,7 +1,7 @@
 ---
-lang: fr-CA
-title: Exploration de l'interface d'Unity
-description: Dans ce tutoriel, l'interface d'Unity est montrée en détail. En commençant par les contrôles de bases, soit la caméra, les déplacement d'objets avec la souris. En passant par une utilisation intermédiateur de l'éditeur (possibilité d'utilisation de mathématique dans les propriétés). Jusqu'à un contrôle du positionnement des objets (rotation par la sélection des sommets, sans l'utilisation d'objets parents).
+lang: en-CA
+title: Exploring the Unity interface
+description: In this tutorial, the Unity interface is shown in detail. Starting with the basic controls, i.e. the camera, the movement of objects with the mouse. Passing by an intermediary use of the editor (possibility of using mathematics in the properties). Until a control of the positioning of the objects (rotation by the selection of the vertices, without the use of parent objects).
 author: Sam
 type: tutorial
 creationDate: Janvier 2022
@@ -11,15 +11,15 @@ posterImage: interfaceUnity.jpg
 
 # Exploration de l'interface d'Unity
 
-Dans ce tutoriel, l'interface d'Unity est montrée pour en profiter à son plein potentiel. Il s'agit de mieux comprendre comment fonctionne l'éditeur.
-Lorsqu'on utiliser un logiciel pour la première fois, il est souvent déconcertant d'en connaître les possibilités, lorsque plusieurs des fonctionnalités ne sont pas explicitent.
+In this tutorial, the Unity interface is shown to take advantage of its full potential. The aim is to better understand how the editor works.
+When using a software for the first time, it is often disconcerting to know the possibilities, when many of the features are not explicit.
 <div class="youtubeVideo">
     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/z7tyLZp1D_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Lorsqu'on débute dans un logiciel complexe, il est parfois difficile de s'imaginer les différentes possibilités si l'on ne l'a jamais vu auparavant. Alors c'est dans cette idée que ce tutoriel a été créé. De donner brièvement un aperçu des possibilités.
+When you are a beginner in a complex software, it is sometimes difficult to imagine the different possibilities if you have never seen it before. So it is with this idea that this tutorial was created. To give a brief overview of the possibilities.
 
-Le tutoriel montre différents mouvements de base, en passant par une manipulation intermédiaire et termine par des manœuvres plus avancées.
+The tutorial shows different basic movements, passing through an intermediate manipulation and ends with more advanced maneuvers.
 
 ## Raccourcis clavier
 

@@ -13,5 +13,10 @@ export default
   app.component("InfoCard", InfoCard);
   app.component("Posts", Posts);
   app.component("MediumZoom", MediumZoom);
-  app.component("MathJax", MathJax);
+  app.component("EnableMathJax", MathJax);
 },)
+
+
+
+
+

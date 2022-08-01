@@ -1,4 +1,8 @@
 const { path } = require('@vuepress/utils')
+// import { defineAsyncComponent } from 'vue'
+const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
+const { defaultTheme } = require('@vuepress/theme-default')
+
 import { navbar, sidebar } from './configs'
 
 module.exports = {
@@ -51,110 +55,82 @@ module.exports = {
       '/en/': {
         selectLanguageName: 'English',
         selectLanguageText: 'Language'
-
       },
+    }
+    ,
 
-    },
 
-
-    // locales: {
-    //   '/': {
-    //     label: 'Français',
-    //     selectText: 'Langues',
-    //     nav: [
-    //       { text: 'Accueil', link: '/' },
-    //       { text: 'Article', link: '/article/'}
-    //     ],
-    //     sidebarDepth: 3,
-    //     collapsable: false,
-    //     sidebar: {
-    //       '/article/': [
-    //         '',
-    //         'radarChart',
-    //         'markdownDemo'
-    //       ],
-    //       // '/portfolio/': [
-    //       //   '',
-    //       //   'blender',
-    //       //   'unity.md',
-    //       //   'web.md',
-    //       // ],
-    //       '/portfolio/': [
-    //         {
-    //           title: 'Portfolio',
-    //           collapsable: false,
-    //           children: [
-    //             ['', 'Projets'],
-    //             'blender',
-    //             'unity',
-    //             'web'
-    //           ]
-    //         }
-    //       ],
-    //       // Default
-    //       '/': [
-    //         ['', 'Accueil'],
-    //         '/portfolio/',
-    //         'interest'
-    //       ]
-    //     }
-    //   },
-    //   '/en/': {
-    //     selectText: 'Languages',
-    //     label: 'English',
-    //     nav: [
-    //       { text: 'Home', link: '/en/' },
-    //       { text: 'Article', link: '/en/article/'}
-    //     ],
-    //     sidebarDepth: 3,
-    //     sidebar: {
-    //       '/en/article/': [
-    //         '',
-    //         'secure-access-with-ssh-keys'
-    //       ],
-    //       // Default
-    //       '/en/': [
-    //         ['', 'Home'],
-    //         'portfolio',
-    //         'interest'
-    //       ]
-    //     }
-    //   }
-    // },
         // sidebar array
     
         // all pages will use the same sidebar
-    navbar: navbar.fr,
+    // navbar: navbar.fr,
 
     // sidebar
-    sidebar: sidebar.fr,
+    // sidebar: sidebar.fr,
 
-    darkMode: true,
-    prefersTheme: 'dark',
-    updatePopup: false, // Boolean | Object, default to undefined.
-    lastUpdatedText: '⏳️', // string | boolean
+    
+    // 
+    // lastUpdated: true,
+    // lastUpdatedText: 'aa', // string | boolean
 
-    docsRepo: 'SamLefebvre/SamLefebvre.github.io',
-    docsDir: 'docs',
-    docsBranch: 'production',
-    editLink: false,
-    contributors: false
+    // docsRepo: 'SamLefebvre/SamLefebvre.github.io',
+    // docsDir: 'docs',
+    // docsBranch: 'production',
+
   }
   ,
 
+  theme: defaultTheme({
+
+    lastUpdatedText: '⏳️', // string | boolean
+    editLink: false,
+    contributors: false,
+    darkMode: true,
+    prefersTheme: 'dark',
+    updatePopup: false, // Boolean | Object, default to undefined.
+    
+    locales: {
+      '/': {
+        selectLanguageName: 'Français',
+        selectLanguageText: 'Langue',
+        sidebar: sidebar.fr,
+        navbar: navbar.fr,
+        lang: 'fr-CA',
+        title: 'Samuël Lefebvre',
+        description: 'Curriculum vitæ, projets et autre !'
+
+      },
+      '/en/': {
+        selectLanguageName: 'English',
+        selectLanguageText: 'Language',
+        sidebar: sidebar.en,
+        navbar: navbar.en,
+        lang: 'en-US',
+        title: 'Samuël Lefebvre',
+        description: 'Curriculum vitæ, projets and more !'
+      },
+    }
+  }),
+
   plugins: [
     [
-      '@vuepress/last-updated',
-      {
-        transformer: (timestamp, lang) => {
-          // Don't forget to install moment yourself
-          const moment = require('moment')
-          moment.locale(lang)
-          return moment(timestamp).fromNow()
-        }
-      },
+      // '@vuepress/last-updated',
+      // {
+      //   transformer: (timestamp, lang) => {
+      //     // Don't forget to install moment yourself
+      //     const moment = require('moment')
+      //     moment.locale(lang)
+      //     return moment(timestamp).fromNow()
+      //   }
+      // },
+      // https://v2.vuepress.vuejs.org/reference/plugin/register-components.html
+      registerComponentsPlugin({
+        componentsDir: path.resolve(__dirname, './components'),
+      }),
     ]
   ]
+
+  
   
   // plugins: {
   //   '@vuepress/last-updated': {

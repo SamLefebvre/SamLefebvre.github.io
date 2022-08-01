@@ -11,10 +11,10 @@
     "docs:nav": "vuepress nav docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-medium-zoom": "2.0.0-beta.38",
-    "@vuepress/plugin-pwa": "2.0.0-beta.38",
-    "@vuepress/plugin-register-components": "^1.9.7",
-    "vuepress": "2.0.0-beta.39"
+    "@vuepress/plugin-medium-zoom": "^2.0.0-beta",
+    "@vuepress/plugin-pwa": "^2.0.0-beta",
+    "@vuepress/plugin-register-components": "^2.0.0-beta",
+    "vuepress": "^2.0.0-beta"
   },
   "dependencies": {
     "@vuepress/plugin-last-updated": "^1.9.7",

@@ -8,4 +8,4 @@ C'est en gardant à l'esprit cette citation que ces différents tutoriel ont ét
 
 Bonne lecture / écoute !
 
-<Posts articleType="tutorial" />
+<Posts articleType="tutorial" lang="fr-CA"/>

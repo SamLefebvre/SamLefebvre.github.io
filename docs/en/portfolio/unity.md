@@ -19,15 +19,15 @@ Avec un <abbr title="Un photopléthysmogramme">capteur de pulsation</abbr> plac�
 
 <details>
   <summary>Image montrant plus en détail le fonctionnement</summary>
-<a href="https://learn.adafruit.com/assets/69599"><img :src="$withBase('/img/synapsETS/light_pulse_detect.png')" alt="foo">Anne Barela </a>
+<a href="https://learn.adafruit.com/assets/69599"><img :src="$withBase('../img/synapsETS/light_pulse_detect.png')" alt="foo">Anne Barela </a>
 </details>
 :::
 
 
-![car](../img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_red_cube.png)
-![ennemies](../img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_ennemies.png)
-![explosion](../img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_explosion.png)
-![demo](../img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_demo.jpg)
+![car](../../img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_red_cube.png)
+![ennemies](../../img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_ennemies.png)
+![explosion](../../img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_explosion.png)
+![demo](../../img/synapsets_hb_pirate_scifi/heartbeat_pirate_scifi_demo.jpg)
 
 ## Course en lowPoly
 
@@ -39,8 +39,8 @@ Le déplacement de la voiture s'est fait avec le système de physique [Wheel Col
 
 Un démo web est [disponible en ligne](https://ekines.com/hyperracing/). Il est à noter que le déplacement est à améliorer.
 
-![car](../img/hyperRacing/hyperRacing_car.png)
-![car](../img/hyperRacing/hyperRacing_Arena.jpg)
+![car](../../img/hyperRacing/hyperRacing_car.png)
+![car](../../img/hyperRacing/hyperRacing_Arena.jpg)
 
 ## Une marche en forêt
 > `Unity 2019.2.3f1` `Cinemachine` `Timeline` `Post Processing` `Terrain Tools` - Novembre 2019
@@ -51,7 +51,7 @@ Est-ce que je fais un jeu simple ? Non ce n'est pas mon genre.
 Est-ce que je fais une animation qui est rendue en <abbr title="En temps réel souple">temps réel</abbr> avec Unity où je suis le metteur en scène, écrivain, codeur, animateur et en charge du rendu final ? Oui, ça l'air intéressant ! <abbr title="Dans quoi je me suis embarqué encore ?">:sweat_smile:</abbr>.
 Après plusieurs itérations et d'heures d'apprentissage des différents outils, le résultat est très proche de la vision d'origine.
 
-![portal](../img/animForest/lastdruid_shadow_sun_in_tree.jpg)
+![portal](../../img/animForest/lastdruid_shadow_sun_in_tree.jpg)
 
 Un défi non prévu a été le suivant : Comment raconter l'histoire ?
 Après quelques essais, la version sous-titrée a été gardé.
@@ -72,7 +72,7 @@ Après quelques essais, la version sous-titrée a été gardé.
 
 Complètement réalisé avec des assets gratuit, son d'ambiance enregistré moi-même et nettoyé avec Audacity.
 
-![chalet](../img/cabin/old_Cabin_woods.jpg)
+![chalet](../../img/cabin/old_Cabin_woods.jpg)
 
 **Vidéo**
 <div style="position:relative;padding-top:56.25%;">
@@ -85,7 +85,7 @@ Complètement réalisé avec des assets gratuit, son d'ambiance enregistré moi-
 
 Mouvement avec le [NavMesh](https://docs.unity3d.com/Manual/nav-BuildingNavMesh.html) d'Unity et création d'une ambiance sonore avec [Bosca Ceoil](https://boscaceoil.net/).
 
-![aiMaze](../img/aiMaze/image_aiMaze.jpg)
+![aiMaze](../../img/aiMaze/image_aiMaze.jpg)
 
 **Vidéo avec la bande sonore**
 
@@ -106,7 +106,7 @@ Une bille qui roule, comment rendre le concept plus intéressant ?
 - [Version en ligne](https://lefebvre.dev/demo_unity_80s_WebGL/index.html) (le sol est différent dû à une incompatibilité avec le shader en WebGL)
 - Code disponible sur [GitHub](https://github.com/SamLefebvre/retro-80s-wireframe)
 
-![synthwave](../img/synthwave.jpg)
+![synthwave](../../img/synthwave.jpg)
 
 ## Interface musicale
 Unity 2019.1.1f1 - août 2019
@@ -115,7 +115,7 @@ Dans le cadre de mon cours *GTI745 - Interfaces utilisateurs avancées* à l'ÉT
 
 **Interface principale** : Séquenceur musical avec une console permettant d'ajuster le son.
 
-![sound matrix](../img/gti745/gti745_unity_sound_matrix.jpg)
+![sound matrix](../../img/gti745/gti745_unity_sound_matrix.jpg)
 
 **Démo sur Youtube**
 <div style="position:relative;padding-top:56.25%;">
@@ -125,19 +125,19 @@ Dans le cadre de mon cours *GTI745 - Interfaces utilisateurs avancées* à l'ÉT
 - Utilisation de [Leap Motion](https://www.leapmotion.com/), permettant de contrôler les éléments de la matrice en temps réel avec nos mains pour un contrôle plus immersif.
 
 **Un (petit) monde à explorer** : Le joueur doit se promener dans un monde 3d pour ramasser différents éléments musicaux.
-![gti745_unity_open_world](../img/gti745/gti745_unity_open_world.jpg)
+![gti745_unity_open_world](../../img/gti745/gti745_unity_open_world.jpg)
 
 - Package [Terrain Tools](https://docs.unity3d.com/Packages/com.unity.terrain-tools@latest)
 - [Terrain Tools Sample Asset Pack](https://assetstore.unity.com/packages/2d/textures-materials/terrain-tools-sample-asset-pack-145808)
 
 **Dispositif haptique (vibration)** : Permets de donner une petite sensation à l'utilisateur lorsqu'il "touche" à un objet, plus précisément lorsque la *Leap Motion* rentre en contact avec un élément de la matrice.
-![gti745_schema_circuitPlaygroundExpress](../img/gti745/gti745_schema_circuitPlaygroundExpress.jpg)
+![gti745_schema_circuitPlaygroundExpress](../../img/gti745/gti745_schema_circuitPlaygroundExpress.jpg)
 - Moteur vibrotactile contrôlé avec python sur système embarqué
   - [Vibrating Mini Motor Disc](https://www.adafruit.com/product/1201)
   - [Adafruit DRV2605L Haptic Motor Controller](https://www.adafruit.com/product/2305)
   - [Circuit Playground Express](https://www.adafruit.com/product/3333)
 
 **Diagramme du circuit électrique**
-![gti745_fritzing_diagram](../img/gti745/gti745_fritzing_diagram.png)
+![gti745_fritzing_diagram](../../img/gti745/gti745_fritzing_diagram.png)
 - Dessiné à l'aide de [Fritzing](https://fritzing.org/home/)
 

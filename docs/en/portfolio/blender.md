@@ -9,7 +9,7 @@ Traduction in progress..
 
 En réutilisant la scène créée lors de la [Ville Néon](#ville-neon), j'ai appliqué une texture sur le terrain, une texture de [briques](https://texturehaven.com/tex/?c=bricks&t=random_bricks_thick) et un shader pour la création de fenêtres. HDRI de [HDRIHaven](https://hdrihaven.com/hdri/?h=the_sky_is_on_fire).
 
-![griffintown](../assets/img/blender/griffintown/montreal.webp)
+![griffintown](../../assets/img/blender/griffintown/montreal.webp)
 
 ## Ville néon
 > `Blender 2.83.1` `4k` `60fps` - 10 juillet juin 2020
@@ -96,7 +96,7 @@ Beigne créé en suivant [Blender Beginner Tutorial Series](https://www.youtube.
 ### Beigne et café
 > `Blender 2.83` - 11 juin 2020
 
-![donut](../assets/img/blender/donut/donut.jpg)
+![donut](../../assets/img/blender/donut/donut.jpg)
 
 ### Beigne et physique
 > `Blender 2.83` `Physique` - 8 juin 2020

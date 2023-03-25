@@ -18,7 +18,8 @@ home: true
   
   <div><RouterLink to="/projects" class="home-link"><InfoCard title="Projets" logo="fa-solid fa-screwdriver-wrench"/></RouterLink></div>
 
-  <div><RouterLink to="/research.html" class="home-link"><InfoCard title="Recherche" logo="fa-solid fa-user-graduate"/></RouterLink></div>
+  <!-- <div><RouterLink to="/research.html" class="home-link"><InfoCard title="Recherche" logo="fa-solid fa-user-graduate"/></RouterLink></div> -->
+  <div><RouterLink to="/art" class="home-link"><InfoCard title="Art" logo="fa-solid fa-bolt"/></RouterLink></div>
   
   <div><RouterLink to="/tutorials" class="home-link"><InfoCard title="Tutoriels" logo="fa-solid fa-book-open"/></RouterLink></div>
 

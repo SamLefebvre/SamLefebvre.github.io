@@ -30,6 +30,6 @@ export const en: SidebarConfig = [
       '/en/tutorials/teachableMachine.md'],
   },
   // Single page
-  '/en/research.md',
+  '/en/art/',
   '/en/contact.md',
 ]

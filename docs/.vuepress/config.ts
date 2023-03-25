@@ -29,7 +29,7 @@ module.exports = {
   },
  
   head: [
-    ['script',{ src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js' }],
+    ['script',{ src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js' }],
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
   ],

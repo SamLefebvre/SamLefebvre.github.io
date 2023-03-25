@@ -17,11 +17,11 @@ Neh'kiamo était un jeune harfang des neiges qui vivait avec sa famille dans la 
 Il décida de quitter sa famille et de prendre son envol vers le sud, où il pensait que l'étoile avait atterri. Il survola des paysages inconnus, des montagnes enneigées, des lacs gelés, des plaines verdoyantes. Il rencontra d'autres oiseaux qui lui parlèrent de leurs coutumes et de leurs légendes. Il apprit que l'étoile qu'il cherchait était en fait un fragment du Saar'khal, le cristal sacré qui protégeait le monde de la nuit éternelle.
 
 Neh'kiamo fut intrigué par cette histoire et voulut en savoir plus. Il continua sa route vers le sud, jusqu'à arriver dans les comtés lointaines du Saar'khal. Là, il vit une grande cité construite autour d'un immense cristal qui brillait de mille feux. C'était le Saar'khal lui-même, le cœur du monde. Neh'kiamo se sentit attiré par cette lumière et s'en approcha. 
-<center>
+
 
 ![](./harfang/cristal_saarkhal.png)
 
-</center>
+
 Mais il ne se rendit pas compte qu'il était entré dans un piège. Le Saar'khal était gardé par une armée de corbeaux maléfiques qui voulaient s'en emparer pour plonger le monde dans les ténèbres. Ils capturèrent Neh'kiamo et le jetèrent dans une cage. Ils lui dirent qu'ils allaient utiliser son sang pour briser le Saar'khal et libérer leur maître, le roi des corbeaux.
 
 Neh'kiamo se sentit perdu et désespéré. Il regretta d'avoir quitté sa famille et d'avoir suivi son rêve. Il pensa qu'il allait mourir sans avoir jamais revu l'étoile filante qui avait éveillé sa curiosité. Mais il n'était pas seul. Dans la cage voisine, il y avait une autre harfang des neiges qui s'appelait Nira'lani. Elle lui dit qu'elle était venue elle aussi pour voir le Saar'khal et qu'elle avait été capturée par les corbeaux.

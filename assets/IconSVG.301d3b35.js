@@ -1,0 +1,1 @@
+import{_ as o,o as n,c as t,a as c,d as s,r as a}from"./app.2b5e4672.js";const _={name:"App"},r={id:"app"},p=s("z ");function i(d,f,m,l,u,v){const e=a("font-awesome-icon");return n(),t("div",r,[c(e,{icon:"coffee"}),p])}var V=o(_,[["render",i],["__file","IconSVG.vue"]]);export{V as default};

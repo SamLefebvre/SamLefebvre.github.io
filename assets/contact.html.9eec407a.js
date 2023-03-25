@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as a,b as e,d as o}from"./app.2b5e4672.js";const n={},r=e("h1",{id:"contact",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#contact","aria-hidden":"true"},"#"),o(" Contact")],-1),s=e("p",null,"...",-1),_=[r,s];function d(i,l){return c(),a("div",null,_)}var f=t(n,[["render",d],["__file","contact.html.vue"]]);export{f as default};

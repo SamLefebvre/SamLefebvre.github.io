@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-770aa52f","path":"/article/radarChart.html","title":"Radar chart","lang":"fr-CA","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1594517878000},"filePathRelative":"article/radarChart.md"}');export{a as data};

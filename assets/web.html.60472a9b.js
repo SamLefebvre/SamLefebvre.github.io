@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7271bda5","path":"/portfolio/web.html","title":"Web","lang":"fr-CA","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Expensify","slug":"expensify","children":[]},{"level":2,"title":"Synaps\xC9TS","slug":"synapsets","children":[]}],"git":{"updatedTime":1594768133000},"filePathRelative":"portfolio/web.md"}');export{e as data};

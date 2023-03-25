@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6289e8bb","path":"/art/texte/conscience.html","title":"Conscience","lang":"fr-CA","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1679777425000},"filePathRelative":"art/texte/conscience.md"}');export{e as data};

@@ -31,5 +31,6 @@ export const en: SidebarConfig = [
   },
   // Single page
   '/en/art/',
-  '/en/contact.md',
+  '/en/research',
+  '/en/contact',
 ]

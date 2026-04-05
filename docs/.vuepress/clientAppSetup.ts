@@ -1,9 +1,6 @@
 import { provide } from "vue"
 import type { ClientAppSetup } from "@vuepress/client"
-import { usePagesData } from "@vuepress/client"
-import { pagesSymbol,usePages,resolvePages } from "./components/usePosts"
-import sanitizeHtml from 'sanitize-html';
-
+import { pagesSymbol, resolvePages } from "./components/usePosts"
 
 const clientAppSetup: ClientAppSetup = () => {
   const pages = resolvePages()

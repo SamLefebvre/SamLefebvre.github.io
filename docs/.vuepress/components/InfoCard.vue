@@ -1,6 +1,6 @@
 <template>
   <div
-    class="info-card"
+    class="info-card no-external-link-icon"
     :style="isVisible && backgroundImageGenerated"
     v-show="isVisible"
   >

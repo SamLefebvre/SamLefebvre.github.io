@@ -1,6 +1,6 @@
 <template>
-  <div class="post-container">
-    <div v-for="page in pages" :key='page.path' class="post-card">
+  <div  v-for="(page, index) in pages" :key='page.path' class="post-container">
+    <div class="post-card">
         <RouterLink class="article-image" :to="page.path">
           <a :href="page.path"><img :src="$withBase('/images/' + page.frontmatter.posterImage)" @error="imgUrlAlt"  alt="image"></a>
         </RouterLink>
@@ -11,10 +11,11 @@
           
           <div class="page-excerpt">{{ page.frontmatter.creationDate || '2020-2022'  }}</div>
           <RouterLink class="page-excerpt" :to="page.path">Plus de détails</RouterLink>
-          
         </div>
-      
+        
     </div>
+    <hr v-if="index !== pages.length - 1" class="post-separator" />
+
 
    
   </div>
@@ -120,12 +121,20 @@ export default {
 }
 .article-image {
   /* height:150px; */
-  width: 150px;
+  width: 350px;
   padding-top:5px;
 }
 .description {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.post-separator {
+  flex-basis: 100%;
+  width: 100%;
+  border: none;
+  border-top: 1px solid var(--vp-c-text);
+  margin: 0;
 }
 </style>

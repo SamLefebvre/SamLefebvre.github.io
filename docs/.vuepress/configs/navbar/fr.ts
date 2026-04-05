@@ -6,16 +6,20 @@ export const fr: NavbarConfig = [
     text: 'Accueil',
     link: '/',
   },
+  // {
+  //   text: 'Portfolio',
+  //   children: [
+  //     '/portfolio/unity.md',
+  //     '/portfolio/blender.md',
+  //   ],
+  // },
   {
-    text: 'Portfolio',
-    children: [
-      '/portfolio/unity.md',
-      '/portfolio/blender.md',
-    ],
+    text: 'Recherche',
+    link: '/research',
   },
   {
-    text: 'Unity',
-    link: '/portfolio/unity/',
+    text: 'Projets Unity',
+    link: '/portfolio/unity',
   },
   
   {

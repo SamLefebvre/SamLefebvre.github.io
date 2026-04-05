@@ -10,41 +10,42 @@ Take a look !
 
 ## Development
 
-This project is build on [VuePress](https://v1.vuepress.vuejs.org/) which is a Vue-powered Static Site Generator.
+This project is built with [VuePress 2](https://v2.vuepress.vuejs.org/), a Vue-powered static site generator.
 
 ### Environment setup
-- Install NodeJS
-    - `choco install nodejs`
-- Install Yarn
-    - `choco install yarn`
+
+- Install [Node.js](https://nodejs.org/) (LTS recommended). On Windows with Chocolatey: `choco install nodejs`
+- npm is included with Node.js; no separate package manager is required.
 
 ### Steps
 
 - Clone this repository
-- `yarn install`
-- `yarn dev`
+- `npm install`
+- `npm run dev`
 
-Build the website
-- `yarn docs:build`
+Build the site:
+
+- `npm run docs:build`
 
 ## Deployment
-- Automatic deployment via Github Actions
+
+- Automatic deployment via GitHub Actions (`npm ci` and `npm run docs:build` on push to `production`).
 
 ## Update
-- Update yarn `choco upgrade yarn`
-- Update yarn `choco upgrade nodejs`
-- Upgrade package.json [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
-- Upgrade packages `yarn upgrade`
 
-Cleanup node_modules
-- `rm -r -force node_modules`
-- `rm yarn.lock`
-- `yarn cache clean`
-- `yarn install`
+- Upgrade Node.js when needed: e.g. `choco upgrade nodejs` (Windows / Chocolatey)
+- Bump versions in `package.json` (e.g. with [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens))
+- Apply updates: `npm update` (within semver ranges) or adjust versions manually, then `npm install`
 
-Note for Vuepress 2.0
-Use relative path instead of absolute
- 
+Cleanup and reinstall:
+
+- Remove `node_modules` (PowerShell: `Remove-Item -Recurse -Force node_modules`)
+- Optional: delete `package-lock.json` for a full dependency re-resolve
+- `npm cache clean --force`
+- `npm install`
+
+Note for VuePress 2.0: use relative paths instead of absolute in Markdown where possible.
+
 <!-- relative path -->
 [Home](../README.md)  
 [Config Reference](../reference/config.md)  
@@ -55,5 +56,5 @@ Use relative path instead of absolute
 <!-- URL -->
 [GitHub](https://github.com)  
 
-dans liens markdown => link avec .md
+dans liens markdown => link avec .md  
 dans liens RouterLinks => links avec .html

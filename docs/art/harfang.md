@@ -1,3 +1,14 @@
+---
+lang: fr-CA
+title: Le harfang des neiges
+description: Neh'kiamo l'harfang des neiges, histoire imagée.
+author: Sam
+type: art
+creationDate: Mars 2023
+date: 2023-03-25
+posterImage: harfang.png
+---
+
 # Le harfang des neiges
 
 
@@ -5,7 +16,7 @@
 Voici une histoire fantastique écrite à l'aide de GPT-4.  
 Images créées avec Stable Diffusion.
 
-![](./harfang/harfang.png)
+![](./img/harfang/harfang.png)
 
 ### Acte 1
 > Raconte-moi une histoire, celle de Neh'kiamo le harfang des neiges qui pris son vol dans les comtés lointaines du Saar'khal.
@@ -19,7 +30,7 @@ Il décida de quitter sa famille et de prendre son envol vers le sud, où il pen
 Neh'kiamo fut intrigué par cette histoire et voulut en savoir plus. Il continua sa route vers le sud, jusqu'à arriver dans les comtés lointaines du Saar'khal. Là, il vit une grande cité construite autour d'un immense cristal qui brillait de mille feux. C'était le Saar'khal lui-même, le cœur du monde. Neh'kiamo se sentit attiré par cette lumière et s'en approcha. 
 
 
-![](./harfang/cristal_saarkhal.png)
+![](./img/harfang/cristal_saarkhal.png)
 
 
 Mais il ne se rendit pas compte qu'il était entré dans un piège. Le Saar'khal était gardé par une armée de corbeaux maléfiques qui voulaient s'en emparer pour plonger le monde dans les ténèbres. Ils capturèrent Neh'kiamo et le jetèrent dans une cage. Ils lui dirent qu'ils allaient utiliser son sang pour briser le Saar'khal et libérer leur maître, le roi des corbeaux.
@@ -32,7 +43,7 @@ Neh'kiamo retrouva espoir et accepta de suivre Nira'lani dans son plan audacieux
 
 Ils coururent vers le Saar'khal en évitant les sentinelles corbeaux. Ils arrivèrent au pied du cristal géant et virent avec horreur que les corbeaux avaient creusé une profonde entaille dans sa surface. Ils comprirent qu'ils n'avaient pas beaucoup de temps avant que les corbeaux n’achèvent leur œuvre maléfique.
 
-![](./harfang/crows.png)
+![](./img/harfang/crows.png)
  
 Neh'kiamo et Nira'lani se regardèrent et se firent un signe de tête. Ils savaient ce qu'ils devaient faire. Ils prirent le morceau de cristal et le placèrent dans l'entaille du Saar'khal. Ils espéraient que ce geste suffirait à réparer le cristal et à repousser les corbeaux.
 
@@ -49,7 +60,7 @@ Ils devinrent des héros respectés et admirés par tous.
 Ils vécurent heureux ensemble jusqu'à la fin de leurs jours.  
 Et c'est ainsi que Neh'kiamo le harfang des neiges pris son vol dans les comtés lointains du Saar'khal.
 
-![](./harfang/premiere_fin.png)
+![](./img/harfang/premiere_fin.png)
 ---
 ### Acte 2
 > Rendu à la fin de leurs jours, à la fin du dernier jour de leur histoire, ils fermèrent les yeux pour une dernière fois. C'est alors que le Nakyo'aahl leur ont donné une autre histoire, une autre mission à accomplir. Ils sont maintenant en pleine forme avec un gain de vitalité sans pareil. Est-ce trop peu, trop tard pour vaincre le néant qui envahit toute la région ?
@@ -60,7 +71,7 @@ Mais un jour, ils sentirent que leur force les quittait. Ils savaient que leur h
 
 Mais ils ne s'attendirent pas à ce qui se passa ensuite. Au lieu de sombrer dans le sommeil éternel, ils se réveillèrent dans un autre monde. Un monde où le ciel était noir et où le sol était couvert de cendres. Un monde où régnait le silence et le froid.
 
-![](./harfang/nouveau_monde.png)
+![](./img/harfang/nouveau_monde.png)
 
 Ils virent alors apparaître devant eux une créature étrange. C'était un Nakyo'aahl, un être de lumière qui vivait dans le Saar'khal. Il leur dit : "Vous avez été choisis par le Saar'khal pour accomplir une nouvelle mission. Vous êtes les seuls à pouvoir sauver ce monde du néant qui l'envahit."
 
@@ -68,7 +79,7 @@ Neh'kiamo et Nira'lani furent surpris par ces paroles. Ils demandèrent : "Quel 
 Le Nakyo'aahl leur répondit : "Ce monde est l'un des nombreux mondes que le Saar'khal protège de la nuit éternelle. Mais il a été attaqué par une force maléfique qui veut détruire toute forme de vie : le néant. Le néant est une entité sans nom ni forme qui se nourrit de la lumière et de l'énergie des mondes qu'il envahit.  
 Vous avez été choisis car vous êtes les élus du Saar'khal, les gardiens de la lumière. Vous avez prouvé votre courage et votre dévouement en sauvant votre propre monde du même péril. Vous avez reçu en cadeau une nouvelle vie, une nouvelle chance de combattre le mal. Votre mission est simple : trouver le cœur de ce monde, là où réside sa source de lumière, et y placer un morceau du Saar'khal pour restaurer son équilibre et repousser le néant."  
 
-![](./harfang/neant.png)
+![](./img/harfang/neant.png)
 
 Neh'kiamo et Nira'lani furent impressionnés par cette mission. Ils se sentirent à la fois honorés et effrayés par cette responsabilité.
 Ils regardèrent autour d'eux et virent un paysage désolé et hostile.
@@ -80,7 +91,7 @@ Ils prirent alors courageusement le morceau du Saar'khal et commencèrent leur p
 
 Neh'kiamo et Nira'lani marchèrent pendant des heures dans le monde sombre et désert. Ils ne virent aucune trace de vie, ni végétale ni animale. Ils ne croisèrent que des ruines de ce qui avait dû être autrefois des villes ou des villages. Ils se demandèrent ce qui avait pu arriver à ce monde pour qu'il devienne ainsi.
 
-![](./harfang/ruines2.png)
+![](./img/harfang/ruines2.png)
 
 Ils suivirent le morceau du Saar'khal qui leur indiquait la direction à prendre. Ils remarquèrent que plus ils avançaient, plus le morceau brillait fort. Ils en déduisirent qu'ils se rapprochaient du cœur du monde.
 
@@ -94,7 +105,7 @@ Ils s'endormirent ensuite paisiblement dans les bras l'un de l'autre.
 
 Mais ils ne s'attendirent pas à ce qui se passa ensuite. Pendant qu'ils dormaient, une ombre rampa vers eux depuis les ténèbres environnantes. C'était une créature du néant, une sorte de ver géant aux yeux rouges et aux dents acérées. Il avait senti la présence du morceau du Saar'khal et était attiré par sa lumière.
 
-![](./harfang/monstre.png)
+![](./img/harfang/monstre.png)
 
 La créature du néant s'approcha lentement de Neh'kiamo et Nira'lani, prête à les attaquer pendant leur sommeil. Mais alors qu'elle était sur le point de les saisir, le morceau du Saar'khal émit une faible lueur qui réveilla Neh'kiamo.
 
@@ -116,7 +127,7 @@ Finalement, ils arrivèrent devant une immense fissure dans le sol qui s'étenda
 Neh'kiamo et Nira'lani se regardèrent et prirent une profonde inspiration. Ils savaient que c'était le moment décisif, celui où ils devaient accomplir leur mission et sauver ce monde du néant.
 
 Ils prirent le morceau du Saar'khal et le lancèrent dans la fissure, en priant pour qu'il atteigne le cœur du monde et le restaure. Le morceau de cristal traversa l'obscurité comme une étoile filante et percuta le cœur de lumière.
-![](./harfang/fissure2.png)
+![](./img/harfang/fissure2.png)
 
 Soudain, une explosion de lumière jaillit de la fissure et se propagea dans tout le monde. Les paysages dévastés par le néant se régénérèrent, les forêts de cristal brisé reprirent vie et les rivières de glace fondirent pour donner naissance à des cours d'eau clairs et scintillants. La lumière du cœur du monde était revenue, chassant les ténèbres et les créatures du néant.
 
@@ -128,7 +139,7 @@ La légende de leur quête se répandit rapidement à travers les terres et les 
 
 Le temps passa, et la vie reprit son cours normal. Les habitants du monde reconstruisirent leurs maisons et leurs villes, et la nature reprit ses droits sur les terres dévastées. Mais personne n'oublia jamais l'histoire de Neh'kiamo et Nira'lani, et leur légende fut transmise de génération en génération.
 
-![](./harfang/ruines.png)
+![](./img/harfang/ruines.png)
 
 Quant à Neh'kiamo et Nira'lani, ils continuèrent à explorer le monde, toujours à la recherche de nouvelles aventures et de défis à relever. Et même si la menace du néant était écartée, ils restaient vigilants, prêts à protéger leur monde et ceux qu'ils aimaient, peu importe les épreuves qu'ils devraient affronter.
 

@@ -1,11 +1,11 @@
 # Art
 
-## Défi
+## Défi {#challenge}
 
 Sur Instagram, je me suis lancé un défi de créer une œuvre d'art chaque jour, et ce depuis plus de 300 jours.
 Je me suis fixé mes propres règles de jeu, les voici.
 
-### Règles du défi
+### Règles du défi {#challenge-rules}
 
 0. Les règles existent pour cadrer la création, mais elles peuvent être contournées lorsque nécessaire. L'objectif est de repousser les limites de l'IA et de notre propre créativité, pas de suivre des instructions aveuglément.
 1. L'intention lors de la création est essentielle. 

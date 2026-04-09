@@ -26,4 +26,11 @@ Tutoriel expliquant comment reproduire l'effet.
     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UncceWPflvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Modèle 3d : [Winged Victory of Samothrace](https://www.myminifactory.com/object/3d-print-winged-victory-of-samothrace-2073) 
+## Le modèle 3D : un héritage culturel {#3d-model}
+
+Le modèle utilisé dans ce projet est la [Victoire de Samothrace](https://fr.wikipedia.org/wiki/Victoire_de_Samothrace) (Musée du Louvre, Paris). 
+
+Il a été fourni par [Scan The World](https://www.myminifactory.com/users/Scan%20The%20World), une initiative open-source dédiée au partage d'artéfacts culturels numérisés en 3D.  
+
+Vous pouvez télécharger le modèle spécifique utilisé pour cette simulation sur [MyMiniFactory](https://www.myminifactory.com/object/3d-print-winged-victory-of-samothrace-2073).
+

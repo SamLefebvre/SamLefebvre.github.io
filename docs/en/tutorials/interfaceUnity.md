@@ -9,7 +9,7 @@ date: 2022-02-13
 posterImage: interfaceUnity.jpg
 ---
 
-# Exploration de l'interface d'Unity
+# Exploration of the Unity interface {#unity-interface}
 
 In this tutorial, the Unity interface is shown to take advantage of its full potential. The aim is to better understand how the editor works.
 When using a software for the first time, it is often disconcerting to know the possibilities, when many of the features are not explicit.
@@ -21,29 +21,26 @@ When you are a beginner in a complex software, it is sometimes difficult to imag
 
 The tutorial shows different basic movements, passing through an intermediate manipulation and ends with more advanced maneuvers.
 
-## Raccourcis clavier
+## Keyboard shortcuts {#keyboard-shortcuts}
 
-Quelques raccourcis pratiques :
+- <kbd>F</kbd> Focuses the camera on the selected object. The cursor must be in the Game window for this shortcut to work.
+- <kbd>Shift</kbd>+<kbd>H</kbd> Temporarily displays only the selected objects.
+- When modifying a property (e.g., X position), it is possible to use certain mathematical operations.
+    - Parentheses, `(1+1)*2` => `4`.
+    - Exponents, `4^2` => `16`.
+    - Multiplication, `4*0.5` => `2`.
+    - Division, `4/2` => `2`.
+    - Addition, `1+1` => `2`.
+    - Subtraction, `3-1` => `2`.
+    - Modulo, `5%2` => `1`.
+    - Scientific notation, `4.87e+03` => `4870`.
 
-- <kbd>F</kbd> Place la caméra pour faire le **f**ocus sur l'objet sélectionné. Le curseur doit être dans la fenêtre Game pour que ce raccourci fonctionne.
-- <kbd>Shift</kbd>+<kbd>H</kbd> N'affiche temporairement que les objets sélectionnés.
-- Lors de la modification d'une propriété (exemple la position en X), il est possible d'utiliser certaines opérations mathématiques.
-    - Parenthèses, `(1+1)*2` => `4`.
-    - Exposants, `4^2` => `16`.
-    - Multiplications, `4*0.5` => `2`.
-    - Divisions, `4/2` => `2`.
-    - Additions, `1+1` => `2`.
-    - Soustractions, `3-1` => `2`.
-    - Modulos, `5%2` => `1`.
-    - Notation scientifique,  `4.87e+03` => `4870`.
-
-## Nombre irrationnel
-Pour entrer un nombre irrationnel, par exemple le cercle trigonométrique, il est possible de le rentrer directement au lieu de rentrer une approximation.
-<MathJax/>
+## Irrational number {#irrational-number}
+To enter an irrational number, such as those from the unit circle, it is possible to enter it directly instead of an approximation.
 $$
 \textrm{P} \left( \frac{\pi}{6}\right) \Rightarrow  \left(\cos{\left( \frac{\pi}{6}\right)} , \sin{\left( \frac{\pi}{6}\right)}\right) \equiv \left( \frac{\sqrt{3}}{2}, \frac{1}{2} \right)\approx \left( 0.866,0.5 \right)  
 $$
 
-Dans cet exemple \\( \cos\left(\frac{\pi}{6}\right) \\) est équivalent à \\( \left(\frac{\sqrt{3}}{2}\right) \\), qui peux s'approximer par  0.8660254037844386467637231707529361834714026269051903140279034897...
+In this example, $\cos\left(\frac{\pi}{6}\right)$ is equivalent to $\left(\frac{\sqrt{3}}{2}\right)$, which can be approximated as {{ 3**0.5/2 }}...
 
-Ce qui est relativement long à écrire. Pour ce faire, il est possible d'écrire directement le nombre irrationnel de cette façon : <code>(3^0.5)/2</code>.
+This is relatively long to write. To do this, it is possible to write the irrational number directly in this way: <code>(3^0.5)/2</code>.

@@ -1,10 +1,12 @@
 # Art
 
+## Challenge {#challenge}
+
 On Instagram, I challenge myself to create an art piece every day, ongoing for the past 300+ days.  
 I made my own rules to challenge myself, and I'm sharing them here.
 
 
-## Challenge rules
+### Challenge rules {#challenge-rules}
 
 0. Rules are meant to be bent. The goal is to push the boundaries of both AI and our own creativity, not to follow instructions blindly.
 1. Thoughtful intention is essential.
@@ -14,7 +16,7 @@ I made my own rules to challenge myself, and I'm sharing them here.
 5. Create a new prompt every day. Avoid reusing prompts, and ideally don't look at prompts from other artists.
 6. Treat each image as a fresh start, unrelated to both the previous day's work and your existing portfolio.
 7. No preparation, no backups, no planning ahead.
-7. Draw inspiration from daily life.
+8. Draw inspiration from daily life.
 9. Post-processing (Photoshop/GIMP/Krita, etc.) is encouraged.
 10. Enjoy the process.
 

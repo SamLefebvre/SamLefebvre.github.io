@@ -1,25 +1,31 @@
-# Contact
-
+---
+title: Contact
+---
  <h2 style="font-size: 2em; font-weight: bold;">
-Samuël Lefebvre
+Samuël Lefebvre, M. Sc. A.
 </h2>
-
-
-
 <div class="contact-intro">
     <figure class="contact-intro__photo">
         <div class="contact-intro__photo-frame">
             <img src="/images/sam_2024_ombre.png" alt="Sam Lefebvre" />
         </div>
-        <figcaption>Interaction, réalité virtuelle et création numérique</figcaption>
+        <figcaption>Interaction, réalité virtuelle et création&nbsp;numérique</figcaption>
     </figure>
     <div class="contact-intro__highlights">
         <ul>
             <li>Chercheur en interaction humain-machine (UI/UX), spécialisation en réalité virtuelle</li>
-            <li>Développeur Senior, 12+ ans d'expérience</li>
-            <li>Stack principal : Unity, Python, C#</li>
-            <li>Intérêts : Recherche fondamentale <abbr class="tooltip" title="Interaction Humain-Machine">IHM</abbr>, création de simulateurs de physique et d'expériences numériques.</li>
-            <li>Artiste multidisiplinaire : GenAI, storytelling, impression&nbsp;3D, photographie.</li>
+            <li>Vulgarisateur et éducateur des sciences et technologies</li>
+            <li>Contributeur de projets de recherche et artistiques
+            <ul>
+                <li>Conceptualise et livre des solutions concrètes, alignées sur les besoins clients, de l'analyse initiale au déploiement.</li>
+            </ul>
+            </li>
+            <li>Développeur Senior, 12+ ans d'expérience
+            <ul>
+                <li>Unity, Python, C#, Blender, etc.</li>
+                <li>GenAI, LLM Agentique, ComfyUI, etc.</li>
+            </ul>
+            </li>
         </ul>
     </div>
 </div>

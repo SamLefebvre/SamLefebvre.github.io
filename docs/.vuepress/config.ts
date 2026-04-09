@@ -4,20 +4,35 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { defaultTheme } from '@vuepress/theme-default'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
-
+import markdownItAttrs from 'markdown-it-attrs'
 import { navbar, sidebar } from './configs'
+import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
+
 
 export default defineUserConfig({
-  bundler: viteBundler(),
+  bundler: viteBundler({}),
 
-  clientAppSetupFiles: path.resolve(__dirname, 'clientAppSetup.ts'),
 
-  onPrepared: async (app) => {
-    const myData = app.pages.map((page) => page)
-    await app.writeTemp('my-data.js', `export default ${JSON.stringify(myData)}`)
+  // Enable heading attributes like: ## Title {#my-anchor}
+  extendsMarkdown: (md) => {
+    md.use(markdownItAttrs)
   },
 
-  clientAppEnhanceFiles: path.resolve(__dirname, 'clientAppEnhance.js'),
+  // clientAppSetupFiles: path.resolve(__dirname, 'clientAppSetup.ts'),
+
+  onPrepared: async (app) => {
+    // const myData = app.pages.map((page) => page)
+    const posts = app.pages
+    .filter(page => !!page.frontmatter.type)
+    .map(page => ({
+      path: page.path,
+      title: page.title,
+      frontmatter: page.frontmatter,
+    }))
+    await app.writeTemp('my-data.js', `export default ${JSON.stringify(posts)}`)
+  },
+
+  // clientAppEnhanceFiles: path.resolve(__dirname, 'clientAppEnhance.js'),
 
   alias: {
     '@assets': path.resolve(__dirname, './assets'),
@@ -45,7 +60,7 @@ export default defineUserConfig({
       description: 'Curriculum vitæ, projets et autre !',
     },
     '/en/': {
-      lang: 'en-US',
+      lang: 'en-CA',
       title: 'Samuël Lefebvre',
       description: 'Curriculum vitæ, projets and more !',
     },
@@ -67,18 +82,12 @@ export default defineUserConfig({
         selectLanguageText: 'Langue',
         sidebar: sidebar.fr,
         navbar: navbar.fr,
-        lang: 'fr-CA',
-        title: 'Samuël Lefebvre',
-        description: 'Curriculum vitæ, projets et autre !',
       },
       '/en/': {
         selectLanguageName: 'English',
         selectLanguageText: 'Language',
         sidebar: sidebar.en,
         navbar: navbar.en,
-        lang: 'en-US',
-        title: 'Samuël Lefebvre',
-        description: 'Curriculum vitæ, projets and more !',
       },
     },
   }),
@@ -92,6 +101,9 @@ export default defineUserConfig({
     }),
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
+    }),
+    markdownMathPlugin({
+       type: 'katex',
     }),
   ],
 })

@@ -1,9 +1,9 @@
 import { defineClientConfig } from '@vuepress/client'
-import githubcorner from './components/githubcorner.vue'
-import InfoCard from './components/InfoCard.vue'
-import MediumZoom from './components/MediumZoom.vue'
-import Posts from './components/Posts.vue'
-import MathJax from './components/MathJax.vue'
+import githubcorner from './root-components/githubcorner.vue'
+// import InfoCard from './components/InfoCard.vue'
+// import MediumZoom from './components/MediumZoom.vue'
+// import Posts from './components/Posts.vue'
+// import MathJax from './components/MathJax.vue'
 
 export default defineClientConfig({
   enhance({ app }) {

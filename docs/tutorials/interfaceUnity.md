@@ -9,7 +9,7 @@ date: 2022-02-13
 posterImage: interfaceUnity.jpg
 ---
 
-# Exploration de l'interface d'Unity
+# Exploration de l'interface d'Unity {#unity-interface}
 
 Dans ce tutoriel, l'interface d'Unity est montrée pour en profiter à son plein potentiel. Il s'agit de mieux comprendre comment fonctionne l'éditeur.
 Lorsqu'on utiliser un logiciel pour la première fois, il est souvent déconcertant d'en connaître les possibilités, lorsque plusieurs des fonctionnalités ne sont pas explicitent.
@@ -21,7 +21,7 @@ Lorsqu'on débute dans un logiciel complexe, il est parfois difficile de s'imagi
 
 Le tutoriel montre différents mouvements de base, en passant par une manipulation intermédiaire et termine par des manœuvres plus avancées.
 
-## Raccourcis clavier
+## Raccourcis clavier {#keyboard-shortcuts}
 
 Quelques raccourcis pratiques :
 
@@ -37,13 +37,12 @@ Quelques raccourcis pratiques :
     - Modulos, `5%2` => `1`.
     - Notation scientifique,  `4.87e+03` => `4870`.
 
-## Nombre irrationnel
+## Nombre irrationnel {#irrational-number}
 Pour entrer un nombre irrationnel, par exemple le cercle trigonométrique, il est possible de le rentrer directement au lieu de rentrer une approximation.
-<MathJax/>
 $$
 \textrm{P} \left( \frac{\pi}{6}\right) \Rightarrow  \left(\cos{\left( \frac{\pi}{6}\right)} , \sin{\left( \frac{\pi}{6}\right)}\right) \equiv \left( \frac{\sqrt{3}}{2}, \frac{1}{2} \right)\approx \left( 0.866,0.5 \right)  
 $$
 
-Dans cet exemple \\( \cos\left(\frac{\pi}{6}\right) \\) est équivalent à \\( \left(\frac{\sqrt{3}}{2}\right) \\), qui peux s'approximer par  0.8660254037844386467637231707529361834714026269051903140279034897...
+Dans cet exemple $\cos\left(\frac{\pi}{6}\right)$ est équivalent à $\left(\frac{\sqrt{3}}{2}\right)$, qui peux s'approximer par {{ 3**0.5/2 }}...
 
 Ce qui est relativement long à écrire. Pour ce faire, il est possible d'écrire directement le nombre irrationnel de cette façon : <code>(3^0.5)/2</code>.

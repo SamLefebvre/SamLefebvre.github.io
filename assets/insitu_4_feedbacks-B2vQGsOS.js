@@ -1,0 +1,1 @@
+var e=`/images/insitu_4_feedbacks.jpg`;export{e as t};

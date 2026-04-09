@@ -1,0 +1,1 @@
+import{w as e}from"./runtime-core.esm-bundler-CFZz3Vvl.js";import{t}from"./useMediumZoom-QzpB8JtQ-Bn-Uv0C2.js";var n={__name:`MediumZoom`,setup(n){let r=t();return e(()=>{r?.refresh()}),()=>{}}};export{n as default};

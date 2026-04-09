@@ -1,0 +1,1 @@
+var e=`/images/sam_2024_ombre.png`;export{e as t};

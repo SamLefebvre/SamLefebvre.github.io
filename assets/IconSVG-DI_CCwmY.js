@@ -1,0 +1,1 @@
+import{N as e,h as t,k as n,m as r,u as i}from"./runtime-core.esm-bundler-CFZz3Vvl.js";import{t as a}from"./plugin-vue_export-helper-DmxsexXh.js";var o={name:`App`},s={id:`app`};function c(a,o,c,l,u,d){let f=e(`font-awesome-icon`);return n(),i(`div`,s,[t(f,{icon:`coffee`}),o[0]||=r(`z `,-1)])}var l=a(o,[[`render`,c]]);export{l as default};

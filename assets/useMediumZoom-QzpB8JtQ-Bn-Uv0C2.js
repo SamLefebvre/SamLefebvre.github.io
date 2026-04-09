@@ -1,0 +1,1 @@
+import{C as e}from"./runtime-core.esm-bundler-CFZz3Vvl.js";var t=Symbol(`mediumZoom`),n=()=>{let n=e(t);if(!n)throw Error(`useMediumZoom() is called without provider.`);return n};export{t as n,n as t};
